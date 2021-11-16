@@ -9,7 +9,7 @@
 #### Simple & Convenience
 #### White & Gradation
 #### Only Portrait
-<img src="https://user-images.githubusercontent.com/80211277/142031773-49dde70d-355e-4ad4-8206-0224e1bfea94.png" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/80211277/142031773-49dde70d-355e-4ad4-8206-0224e1bfea94.png">
 <br/><br/>
 ### -  앱 기능
 #### 최근 전시 공연 정보를 얻을 수 있습니다
