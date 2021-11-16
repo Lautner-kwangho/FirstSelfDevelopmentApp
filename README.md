@@ -5,10 +5,11 @@
 #### 번거롭게 검색했던 전시회, 공연을 한 눈에 살펴보세요
 #### 인상깊었던 공연을 저장하고 나만의 갤러리를 만들어보세요
 <br/><br/>
-### -  앱 UI / UX
+### -  앱 UI / UX 특징
 #### Simple & Convenience
 #### White & Gradation ( Dark Mode 미지원 )
 #### Only Portrait ( Landscape 미지원 )
+/Users/choikwangho/Desktop/FirstAppUI_1/04_Untitled 3_2.png
 <br/><br/>
 ### -  앱 기능
 #### 최근 전시 공연 정보를 얻을 수 있습니다
