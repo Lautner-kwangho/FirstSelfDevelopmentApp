@@ -9,7 +9,8 @@
 #### Simple & Convenience
 #### White & Gradation ( Dark Mode 미지원 )
 #### Only Portrait ( Landscape 미지원 )
-/Users/choikwangho/Desktop/FirstAppUI_1/04_Untitled 3_2.png
+<img src="<img width="811" alt="04_Untitled 3_2" src="https://user-images.githubusercontent.com/80211277/142029155-201a764c-7544-47e2-bf37-b7cbf1084f19.png">
+" width="300" height="300">
 <br/><br/>
 ### -  앱 기능
 #### 최근 전시 공연 정보를 얻을 수 있습니다
