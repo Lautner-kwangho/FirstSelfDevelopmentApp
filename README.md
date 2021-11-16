@@ -7,10 +7,11 @@
 <br/><br/>
 ### -  앱 UI / UX 특징
 #### Simple & Convenience
-#### White & Gradation ( Dark Mode 미지원 )
-#### Only Portrait ( Landscape 미지원 )
-<img src="<img width="811" alt="04_Untitled 3_2" src="https://user-images.githubusercontent.com/80211277/142029155-201a764c-7544-47e2-bf37-b7cbf1084f19.png">
+#### White & Gradation
+#### Only Portrait
+<img src="https://user-images.githubusercontent.com/80211277/142029155-201a764c-7544-47e2-bf37-b7cbf1084f19.png">
 " width="300" height="300">
+<img src="cloud.githubcontents.com에 업로드된 URL" width="40%">
 <br/><br/>
 ### -  앱 기능
 #### 최근 전시 공연 정보를 얻을 수 있습니다
