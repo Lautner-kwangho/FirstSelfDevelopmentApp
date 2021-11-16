@@ -9,9 +9,7 @@
 #### Simple & Convenience
 #### White & Gradation
 #### Only Portrait
-<img src="https://user-images.githubusercontent.com/80211277/142029155-201a764c-7544-47e2-bf37-b7cbf1084f19.png">
-" width="300" height="300">
-<img src="cloud.githubcontents.com에 업로드된 URL" width="40%">
+<img src="https://user-images.githubusercontent.com/80211277/142031773-49dde70d-355e-4ad4-8206-0224e1bfea94.png" width="300" height="300">
 <br/><br/>
 ### -  앱 기능
 #### 최근 전시 공연 정보를 얻을 수 있습니다
