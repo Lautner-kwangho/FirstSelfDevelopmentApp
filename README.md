@@ -61,8 +61,10 @@
 |  *Iteration 2*  ||
 |4|11월 18일|- 기본 UI 작성 <br/> - 전공앱 : Font 설정 <br/> - XML Library 문서 읽기 |10시간| [4일차](DailyReadMe/4일차.md)
 |5|11월 19일|- TableView UI 80% 완성 <br/> - CollectionView 80% 완료 <br/> - 공공데이터포털 API server오류 체크(답변 대기중) <br/> - 애니메이션 일부 적용|7시간|[5일차](DailyReadMe/5일차.md)
-|5|11월 20일|||[6일차](DailyReadMe/6일차.md)
-|5|11월 21일|||[7일차](DailyReadMe/7일차.md)
+|6|11월 20일|- 사용자 입장에서 UI 다시 생각해보기 <br/> - Calendar Basic 으로 넣어두기 <br/> - Page 추가 구서 및 Alert 활용 <br/> - 스크롤 방향 및 시각화 |8시간|[6일차](DailyReadMe/6일차.md)
+|7|11월 21일|||[7일차](DailyReadMe/7일차.md)
+|  *Iteration 3*  ||
+|8|11월 22일|||[8일차](DailyReadMe/8일차.md)
 ###### * All day = 9:30 ~ 03:00
 
 <br/><br/>
