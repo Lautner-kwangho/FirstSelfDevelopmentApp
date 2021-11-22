@@ -64,7 +64,9 @@
 |6|11월 20일|- 사용자 입장에서 UI 다시 생각해보기 <br/> - Calendar Basic 으로 넣어두기 <br/> - Page 추가 구서 및 Alert 활용 <br/> - 스크롤 방향 및 시각화 |8시간|[6일차](DailyReadMe/6일차.md)
 |7|11월 21일|- 휴식|-|[7일차](DailyReadMe/7일차.md)
 |  *Iteration 3*  ||
-|8|11월 22일|||[8일차](DailyReadMe/8일차.md)
+|8|11월 22일|- UI 추가 구성 및 Tab Bar 순서 변경 <br/> - Animation 문서 읽기 |10시간|[8일차](DailyReadMe/8일차.md)
+|9|11월 23일|||[9일차](DailyReadMe/9일차.md)
+|10|11월 24일|||[10일차](DailyReadMe/10일차.md)
 ###### * All day = 9:30 ~ 03:00
 
 <br/><br/>
