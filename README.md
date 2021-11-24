@@ -66,7 +66,7 @@
 |  *Iteration 3*  ||
 |8|11월 22일|- UI 추가 구성 및 Tab Bar 순서 변경 <br/> - Animation 문서 읽기 |10시간|[8일차](DailyReadMe/8일차.md)
 |9|11월 23일|- calendar 구성 및 커스텀화 <br/> - collectionView Paging check <br/> - map 확대 시각화 <br/> - photo Library 살펴보기 |10시간|[9일차](DailyReadMe/9일차.md)
-|10|11월 24일|- button 기능 구현 <br/> ~~백업 복구 구현 ~~   <br/> - 설정 탭 세부 Page 완료 <br/> - (시간 남을 시) API 통신|10시간|[10일차](DailyReadMe/10일차.md)
+|10|11월 24일|- button 기능 구현 <br/> ~~백업 복구 구현~~   <br/> - 설정 탭 세부 Page 완료 <br/> - (시간 남을 시) API 통신|10시간|[10일차](DailyReadMe/10일차.md)
 |  *Iteration 4*  ||
 |11|11월 25일|||[11일차](DailyReadMe/11일차.md)
 |12|11월 26일|||[12일차](DailyReadMe/12일차.md)
