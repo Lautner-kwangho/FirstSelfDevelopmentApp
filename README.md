@@ -66,7 +66,12 @@
 |  *Iteration 3*  ||
 |8|11월 22일|- UI 추가 구성 및 Tab Bar 순서 변경 <br/> - Animation 문서 읽기 |10시간|[8일차](DailyReadMe/8일차.md)
 |9|11월 23일|- calendar 구성 및 커스텀화 <br/> - collectionView Paging check <br/> - map 확대 시각화 <br/> - photo Library 살펴보기 |10시간|[9일차](DailyReadMe/9일차.md)
-|10|11월 24일|||[10일차](DailyReadMe/10일차.md)
+|10|11월 24일|- button 기능 구현 <br/> - 백업 복구 구현 <br/> - 설정 탭 세부 Page 완료 <br/> - (시간 남을 시) API 통신|10시간|[10일차](DailyReadMe/10일차.md)
+|  *Iteration 4*  ||
+|11|11월 25일|||[11일차](DailyReadMe/11일차.md)
+|12|11월 26일|||[12일차](DailyReadMe/12일차.md)
+|13|11월 27일|||[13일차](DailyReadMe/13일차.md)
+|14|11월 28일|||[14일차](DailyReadMe/14일차.md)
 ###### * All day = 9:30 ~ 03:00
 
 <br/><br/>
@@ -81,6 +86,7 @@
 주말!
 |6|11월 22일|- 주말에 완성하지 못한 UI 대부부 완성하기 <br/> - 제공 서비스 변경에 따른 UI변경|
 |7|11월 23일|- 개인 사정으로 진행이 어려우신 분들도 있었지만 나름 각자 페이스에 맞춰 개발 진행 <br/> - 대두분 DB관련하여 작업을 들어감 <br/> - 미비한 부분 구현|
-|8|11월 24일||
+|8|11월 24일|- 몇몇 분들은 부가적인 기능은 만들지 않고 출시도 계획 <br/> - TableView placeholder 같이 놓친 부분이나 버그 공유 |
 |9|11월 25일||
 |10|11월 26일||
+벌써 주말..?
