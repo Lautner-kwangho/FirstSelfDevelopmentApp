@@ -68,7 +68,7 @@
 |9|11월 23일|- calendar 구성 및 커스텀화 <br/> - collectionView Paging check <br/> - map 확대 시각화 <br/> - photo Library 살펴보기 |10시간|[9일차](DailyReadMe/9일차.md)
 |10|11월 24일|- button 기능 구현 <br/> ~~백업 복구 구현~~   <br/> - 설정 탭 세부 Page 완료 <br/> - API 통신|10시간|[10일차](DailyReadMe/10일차.md)
 |  *Iteration 4*  ||
-|11|11월 25일|- 첫 화면 완성 <br/> - API filter 적용 <br/> - 두번째 화면 완성 <br/> (시간 남을 시) 세번째 화면 캘린더 커스텀 진행 |10시간|[11일차](DailyReadMe/11일차.md)
+|11|11월 25일|- 첫 화면 완성 <br/> - API filter 적용 <br/> - 두번째 화면 완성 <br/> - (시간 남을 시) 세번째 화면 캘린더 커스텀 진행 |10시간|[11일차](DailyReadMe/11일차.md)
 |12|11월 26일|||[12일차](DailyReadMe/12일차.md)
 |13|11월 27일|||[13일차](DailyReadMe/13일차.md)
 |14|11월 28일|||[14일차](DailyReadMe/14일차.md)
