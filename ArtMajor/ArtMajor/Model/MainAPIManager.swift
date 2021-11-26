@@ -19,7 +19,7 @@ class MainAPIManager {
         
         guard let placed = place.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else { return }
         
-        let url = "http://www.culture.go.kr/openapi/rest/publicperformancedisplays/\(type)?serviceKey=\(APIKEY.publicDataKey)&sortStdr=\(sort)&sido=\(placed)&realmCode=\(realmtype)&rows=10000&from=\(fromDay)&to=\(ToDay)"
+        let url = "http://www.culture.go.kr/openapi/rest/publicperformancedisplays/\(type)?serviceKey=\(APIKEY.publicDataKey)&sortStdr=\(sort)&sido=\(placed)&realmCode=\(realmtype)&rows=1000&from=\(fromDay)&to=\(ToDay)"
         
         AF.request(url, method: .get).responseData { response in
             

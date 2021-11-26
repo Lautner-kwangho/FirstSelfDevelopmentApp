@@ -35,11 +35,12 @@ class MainVC: UIViewController {
         super.viewDidLoad()
         gradientBackground()
         blurSetting()
-            
+        
+        apiTest(place: "")
         mainButtonSetting()
         mainSelectLocalButtonSetting()
         mainCollectionViewSetting()
-        apiTest(place: "")
+        setNoDataPlaceholder("왼쪽 상단을 버튼 지역을 클릭해주시면\n현재진행되고 있는 전시회 정보가 나옵니다", collectionView: mainCollectionView)
     }
     
     func gradientBackground() {

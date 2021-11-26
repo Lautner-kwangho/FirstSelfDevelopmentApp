@@ -103,8 +103,8 @@
             <connections>
                 <outlet property="showDate" destination="40B-pm-wea" id="mo6-qR-Z6L"/>
                 <outlet property="showImage" destination="f0k-IY-dXY" id="gjr-XC-6c9"/>
-                <outlet property="showOpenRun" destination="6Py-Ra-pY2" id="IX7-df-yts"/>
                 <outlet property="showPlace" destination="FnS-dK-RL4" id="Pqu-G2-GZY"/>
+                <outlet property="showState" destination="6Py-Ra-pY2" id="IX7-df-yts"/>
                 <outlet property="showTitle" destination="bol-fn-bhg" id="Tu7-b9-fRr"/>
                 <outlet property="showView" destination="zpG-FG-0mg" id="g51-Nc-TZ7"/>
             </connections>

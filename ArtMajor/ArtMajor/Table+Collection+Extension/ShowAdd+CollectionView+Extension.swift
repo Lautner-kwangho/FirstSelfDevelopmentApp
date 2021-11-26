@@ -17,10 +17,12 @@ extension ShowAddVC: UICollectionViewDelegateFlowLayout {
         let showAddCollectionViewLayout = UICollectionViewFlowLayout()
         showAddCollectionViewLayout.itemSize = CGSize(width: self.view.frame.size.width, height: showAddCollectionView.frame.size.height)
         showAddCollectionViewLayout.scrollDirection = .horizontal
+        
         showAddCollectionView.collectionViewLayout = showAddCollectionViewLayout
-
+        
         showAddCollectionView.decelerationRate = .fast
         showAddCollectionView.isPagingEnabled = true
+
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
@@ -52,12 +54,12 @@ extension ShowAddVC: UICollectionViewDelegateFlowLayout {
             cell.showAddPoster.kingfishser(xml)
         }
         cell.showAddOringButton.addTarget(self, action: #selector(goToOriginPoster), for: .touchUpInside)
-        
         return cell
     }
     
     @objc func goToOriginPoster() {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: ShowOriginPosterVC.identifier) as! ShowOriginPosterVC
+
         present(vc, animated: true, completion: nil)
     }
 }

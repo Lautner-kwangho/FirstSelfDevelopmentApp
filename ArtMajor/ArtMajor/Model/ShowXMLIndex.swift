@@ -8,11 +8,12 @@
 import Foundation
 import SWXMLHash
 
-struct ShowXML: XMLIndexerDeserializable {
+struct ShowXML: XMLIndexerDeserializable, Equatable {
     let showCode: String
     let showName: String
     let from: String
     let to: String
+    let genre: String
     let place: String
     let showPoster: String
     let showState: String
@@ -24,6 +25,7 @@ struct ShowXML: XMLIndexerDeserializable {
             showName: xml["prfnm"].value(),
             from: xml["prfpdfrom"].value(),
             to: xml["prfpdto"].value(),
+            genre: xml["genrenm"].value(),
             place: xml["fcltynm"].value(),
             showPoster: xml["poster"].value(),
             showState: xml["prfstate"].value(),

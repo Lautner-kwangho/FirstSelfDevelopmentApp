@@ -86,6 +86,10 @@
 		E4F671922747F6A600489F0F /* MyProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4F671902747F6A600489F0F /* MyProfileCollectionViewCell.xib */; };
 		E4F671942747F70500489F0F /* MyProfileVC+CollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F671932747F70500489F0F /* MyProfileVC+CollectionView+Extension.swift */; };
 		E4F6719A2748D2E300489F0F /* Alert+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F671992748D2E300489F0F /* Alert+Extension.swift */; };
+		E4FDBBC627511B9000203DA4 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = E4FDBBC527511B9000203DA4 /* JGProgressHUD */; };
+		E4FDBBC9275123D600203DA4 /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = E4FDBBC8275123D600203DA4 /* SkeletonView */; };
+		E4FDBBCB275124DD00203DA4 /* ShowAddVC+Skeleton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FDBBCA275124DD00203DA4 /* ShowAddVC+Skeleton+Extension.swift */; };
+		E4FDBBCD2751396900203DA4 /* VC+Placeholder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FDBBCC2751396900203DA4 /* VC+Placeholder+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -165,6 +169,8 @@
 		E4F671902747F6A600489F0F /* MyProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyProfileCollectionViewCell.xib; sourceTree = "<group>"; };
 		E4F671932747F70500489F0F /* MyProfileVC+CollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyProfileVC+CollectionView+Extension.swift"; sourceTree = "<group>"; };
 		E4F671992748D2E300489F0F /* Alert+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+Extension.swift"; sourceTree = "<group>"; };
+		E4FDBBCA275124DD00203DA4 /* ShowAddVC+Skeleton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShowAddVC+Skeleton+Extension.swift"; sourceTree = "<group>"; };
+		E4FDBBCC2751396900203DA4 /* VC+Placeholder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+Placeholder+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,9 +179,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E446360E274D2A4400FFDE12 /* Charts in Frameworks */,
+				E4FDBBC9275123D600203DA4 /* SkeletonView in Frameworks */,
 				E4B525392746B2230074531B /* SWXMLHash in Frameworks */,
 				E4CA0F07274BCD73005EB578 /* JTAppleCalendar in Frameworks */,
 				E4B52531274681000074531B /* Alamofire in Frameworks */,
+				E4FDBBC627511B9000203DA4 /* JGProgressHUD in Frameworks */,
 				E44E2106274E777D00890E14 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +259,9 @@
 				E44E2107274E77BB00890E14 /* Kingfisher+Extension.swift */,
 				E4B5253227469E4A0074531B /* String+Extension.swift */,
 				E4D7AA6D274639B600983195 /* UIFont+Extension.swift */,
+				E4FDBBCC2751396900203DA4 /* VC+Placeholder+Extension.swift */,
 				E446360F274E102800FFDE12 /* ShowVC+UIMemu+Extension.swift */,
+				E4FDBBCA275124DD00203DA4 /* ShowAddVC+Skeleton+Extension.swift */,
 				E4D7AA81274648F800983195 /* MainVC+TabBar+Extension.swift */,
 				E48B48D9274F58AE00CD5067 /* MainVC+UIMenu+Extension.swift */,
 				E467102A274D007800384455 /* MainInfoVC+Mapkit_Extension.swift */,
@@ -375,6 +385,8 @@
 				E4CA0F06274BCD73005EB578 /* JTAppleCalendar */,
 				E446360D274D2A4400FFDE12 /* Charts */,
 				E44E2105274E777D00890E14 /* Kingfisher */,
+				E4FDBBC527511B9000203DA4 /* JGProgressHUD */,
+				E4FDBBC8275123D600203DA4 /* SkeletonView */,
 			);
 			productName = ArtMajor;
 			productReference = E4D7AA4527462D9D00983195 /* ArtMajor.app */;
@@ -410,6 +422,8 @@
 				E4CA0F05274BCD73005EB578 /* XCRemoteSwiftPackageReference "JTAppleCalendar" */,
 				E446360C274D2A4400FFDE12 /* XCRemoteSwiftPackageReference "Charts" */,
 				E44E2104274E777D00890E14 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				E4FDBBC427511B9000203DA4 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				E4FDBBC7275123D600203DA4 /* XCRemoteSwiftPackageReference "SkeletonView" */,
 			);
 			productRefGroup = E4D7AA4627462D9D00983195 /* Products */;
 			projectDirPath = "";
@@ -470,6 +484,7 @@
 				E467102B274D007800384455 /* MainInfoVC+Mapkit_Extension.swift in Sources */,
 				E4CA0EFE274B75EB005EB578 /* ShowAdd+CollectionView+Extension.swift in Sources */,
 				E4D7AA7A27463DB900983195 /* ShowVC.swift in Sources */,
+				E4FDBBCB275124DD00203DA4 /* ShowAddVC+Skeleton+Extension.swift in Sources */,
 				E4D77905274FFAEC0096BFE7 /* ShowDetailXMLIndex.swift in Sources */,
 				E4F6717D27479A1B00489F0F /* SettingTableViewCell.swift in Sources */,
 				E4CA0EF6274B742A005EB578 /* ShowAddVC.swift in Sources */,
@@ -477,6 +492,7 @@
 				E4F6717A2747947F00489F0F /* CalendarVC+TableView+Extension.swift in Sources */,
 				E4D7AA6E274639B600983195 /* UIFont+Extension.swift in Sources */,
 				E44E2101274E21BD00890E14 /* SettingInfoCopyrightVC.swift in Sources */,
+				E4FDBBCD2751396900203DA4 /* VC+Placeholder+Extension.swift in Sources */,
 				E4CA0F00274BA233005EB578 /* MyProfileAddVC.swift in Sources */,
 				E4D7AA82274648F800983195 /* MainVC+TabBar+Extension.swift in Sources */,
 				E4D7AA4D27462D9D00983195 /* MainVC.swift in Sources */,
@@ -774,6 +790,22 @@
 				minimumVersion = 8.0.0;
 			};
 		};
+		E4FDBBC427511B9000203DA4 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		E4FDBBC7275123D600203DA4 /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -801,6 +833,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E4CA0F05274BCD73005EB578 /* XCRemoteSwiftPackageReference "JTAppleCalendar" */;
 			productName = JTAppleCalendar;
+		};
+		E4FDBBC527511B9000203DA4 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4FDBBC427511B9000203DA4 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		E4FDBBC8275123D600203DA4 /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4FDBBC7275123D600203DA4 /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

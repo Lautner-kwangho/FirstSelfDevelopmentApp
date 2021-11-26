@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import JGProgressHUD
 
 class ShowVC: UIViewController {
     
@@ -16,6 +17,8 @@ class ShowVC: UIViewController {
     @IBOutlet weak var selectGerne: UIButton!
     
     var showXML: [ShowXML] = []
+    var showXMLfilter: [ShowXML] = []
+    let hud = JGProgressHUD()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,11 +27,10 @@ class ShowVC: UIViewController {
         showTableView.tableHeaderView = selectHeader
         showTableView.separatorStyle = .none
         
-        showApi()
+        showApi(local: "")
         buttonUISetting()
         selectLocalButtonSetting()
         selectGerneButtonSetting()
     }
-
     
 }

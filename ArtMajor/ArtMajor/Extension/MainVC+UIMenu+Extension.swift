@@ -13,8 +13,8 @@ extension MainVC {
         for btn in button {
             btn?.layer.cornerRadius = (btn?.frame.size.width)! * 0.05
             btn?.layer.addBorder([.bottom], color: .red, width: 1)
-            btn?.titleLabel?.font = UIFont().bold
-            btn?.titleLabel?.adjustsFontSizeToFitWidth = true
+            btn?.titleLabel?.font = UIFont().plain
+            btn?.titleLabel?.adjustsFontSizeToFitWidth = false
             btn?.titleLabel?.textAlignment = .center
         }
     }

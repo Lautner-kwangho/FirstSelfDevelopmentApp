@@ -6,12 +6,16 @@
 //
 
 import UIKit
+import JGProgressHUD
+import SkeletonView
 
 class ShowAddVC: UIViewController {
-
+    
     static let identifier = "ShowAddVC"
     
     @IBOutlet weak var showAddCollectionView: UICollectionView!
+    @IBOutlet weak var showAddVCDelay: UIVisualEffectView!
+    @IBOutlet weak var showAddVCImage: UIImageView!
     
     @IBOutlet weak var detailView: UIView!
     @IBOutlet weak var detailBackground: UIImageView!
@@ -25,14 +29,15 @@ class ShowAddVC: UIViewController {
     @IBOutlet weak var detailAge: UILabel!
     @IBOutlet weak var detailCast: UILabel!
     
-    
     var showCode: String?
+    var showImageURL: String?
     var showDetailXML: [ShowDetailXML] = []
+    let hud = JGProgressHUD()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        showDetailUISetting()
         showDetailApi(showCode: showCode!)
+        showDetailUISetting()
         showAddCollectionViewSetting()
     }
     
@@ -43,14 +48,15 @@ class ShowAddVC: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print(showDetailXML)
         showAddCollectionView.reloadData()
         detailSetting()
+        showAddVCDelay.isHidden = true
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         self.tabBarController?.tabBar.isHidden = false
+        showAddVCDelay.isHidden = false
     }
     
     func showDetailUISetting() {
@@ -58,7 +64,7 @@ class ShowAddVC: UIViewController {
     }
     
     func detailSetting() {
-        
+        showAddVCImage.kingfishser(showImageURL ?? "")
         if let xml = showDetailXML.first {
             detailGenre.text = "공연명( " + xml.genre + " )"
             detailBackground.kingfishser(xml.mainPoster)
@@ -71,7 +77,9 @@ class ShowAddVC: UIViewController {
             detailAge.text = xml.age
             detailCast.text = xml.cast
         } else {
-            self.alert(title: "통신 오류", message: "인터넷 상태가 원활하지 않습니다 재시도 해주세요 ", actionTitle: "확인")
+            self.alertCustom(title: "통신 오류", message: "인터넷 상태가 원활하지 않습니다 재시도 해주세요 ", actionTitle: "확인") { UIAlertAction in
+                self.navigationController?.popViewController(animated: true)
+            }
         }
     }
     

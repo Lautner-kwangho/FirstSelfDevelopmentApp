@@ -18,7 +18,7 @@ class ShowAPIManager {
         guard let shcated = shcate.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else { return }
         guard let signgucoded = signgucode.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else { return }
 
-        let url = "http://www.kopis.or.kr/openApi/restful/pblprfr?service=\(APIKEY.kopisKey)&stdate=\(startDate)&eddate=\(endDate)&cpage=1&rows=20&shcate=\(shcated)&signgucode=\(signgucoded)"
+        let url = "http://www.kopis.or.kr/openApi/restful/pblprfr?service=\(APIKEY.kopisKey)&stdate=\(startDate)&eddate=\(endDate)&cpage=1&rows=1000&shcate=\(shcated)&signgucode=\(signgucoded)"
         // shcate=AAAA, signgucode=11
 
         AF.request(url, method: .get).responseData { response in
@@ -35,7 +35,6 @@ class ShowAPIManager {
     }
     
     func showDetailAPI(showCode: String, result: @escaping(XMLIndexer) -> () ) {
-//        "http://www.kopis.or.kr/openApi/restful/pblprfr/PF132236?service=d3f41fc7c2eb47b0803c2b373926f8b4"
         let url = "http://www.kopis.or.kr/openApi/restful/pblprfr/\(showCode)?service=\(APIKEY.kopisKey)"
         AF.request(url, method: .get).responseData { response in
             switch response.result {

@@ -17,7 +17,7 @@ class ShowTableViewCell: UITableViewCell {
     @IBOutlet weak var showTitle: UILabel!
     @IBOutlet weak var showDate: UILabel!
     @IBOutlet weak var showPlace: UILabel!
-    @IBOutlet weak var showOpenRun: UILabel!
+    @IBOutlet weak var showState: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
