@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Setting Info CopyrightVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="SettingInfoCopyrightVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="SettingInfoCopyrightVC" customModule="ArtMajor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRG-bn-PrZ">
+                                <rect key="frame" x="183" y="54" width="48" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="L70-2V-WoP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="AUs-C0-Tff">
+                                <rect key="frame" x="20" y="99" width="374" height="450"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rND-Hc-Ag9">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="234.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KOPIS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25P-kC-FMw">
+                                                <rect key="frame" x="20" y="20" width="48" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yu-1T-Wf3">
+                                                <rect key="frame" x="20" y="60.5" width="334" height="133"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">∙ 집계기간 : 최종 집계 YYYY.MM.DD ∙ 집계대상 : 모든 공연 데이터 전송기관 ∙아래 집계 데이터는 공연예술통합전산망 연계기관의 티켓판매시스템에서 발권된 분량을 기준으로 제공함으로 해당 공연의 전체 관객 수와 차이가 있을 수 있습니다. ∙API : 예술경영지원센터 공연예술통합 전산망 (www.kopis.or.kr)</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="25P-kC-FMw" firstAttribute="leading" secondItem="rND-Hc-Ag9" secondAttribute="leading" constant="20" id="DN0-1U-UsU"/>
+                                            <constraint firstItem="8yu-1T-Wf3" firstAttribute="top" secondItem="25P-kC-FMw" secondAttribute="bottom" constant="20" id="Pko-Qm-0g5"/>
+                                            <constraint firstItem="25P-kC-FMw" firstAttribute="top" secondItem="rND-Hc-Ag9" secondAttribute="top" constant="20" id="SXd-01-mdb"/>
+                                            <constraint firstAttribute="trailing" secondItem="8yu-1T-Wf3" secondAttribute="trailing" constant="20" id="Ty5-jn-EbY"/>
+                                            <constraint firstItem="8yu-1T-Wf3" firstAttribute="leading" secondItem="rND-Hc-Ag9" secondAttribute="leading" constant="20" id="jRz-O0-oNM"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n9t-rd-7b5">
+                                        <rect key="frame" x="0.0" y="244.5" width="374" height="205.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="앱 기능" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRw-q7-E3m">
+                                                <rect key="frame" x="20" y="20" width="48.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JW-eO-KS3">
+                                                <rect key="frame" x="20" y="60.5" width="334" height="116.5"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">version 1.0.0  
+∙ 미술, 전시, 공연 정보를 얻을 수 있습니다 ∙ 원하시는 미술 전시 일정을 관리하고 체크할 수 있습니다 ∙ 보고 온 미술 전시를 다이어리처럼 관리할 수 있습니다 </string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="aRw-q7-E3m" firstAttribute="leading" secondItem="n9t-rd-7b5" secondAttribute="leading" constant="20" id="Aqg-8l-1D6"/>
+                                            <constraint firstItem="aRw-q7-E3m" firstAttribute="top" secondItem="n9t-rd-7b5" secondAttribute="top" constant="20" id="Gv5-tW-YPc"/>
+                                            <constraint firstAttribute="trailing" secondItem="6JW-eO-KS3" secondAttribute="trailing" constant="20" id="HPi-pF-Ywc"/>
+                                            <constraint firstItem="6JW-eO-KS3" firstAttribute="leading" secondItem="n9t-rd-7b5" secondAttribute="leading" constant="20" id="mbV-C2-aNo"/>
+                                            <constraint firstItem="6JW-eO-KS3" firstAttribute="top" secondItem="aRw-q7-E3m" secondAttribute="bottom" constant="20" id="rIS-FB-8NF"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="450" id="uKF-Pp-z2N"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eRG-bn-PrZ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="3Wz-i1-XIQ"/>
+                            <constraint firstItem="AUs-C0-Tff" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Ihr-NM-hUj"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eRG-bn-PrZ" secondAttribute="trailing" constant="20" id="U26-O4-bXB"/>
+                            <constraint firstItem="eRG-bn-PrZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="VGc-ab-7gn"/>
+                            <constraint firstItem="AUs-C0-Tff" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="imu-fE-qdW"/>
+                            <constraint firstItem="AUs-C0-Tff" firstAttribute="top" secondItem="eRG-bn-PrZ" secondAttribute="bottom" constant="20" id="jVU-e1-2bw"/>
+                            <constraint firstItem="eRG-bn-PrZ" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="svJ-Ke-LjZ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="AUs-C0-Tff" secondAttribute="bottom" id="tHU-k4-wqY"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="AUs-C0-Tff" secondAttribute="trailing" constant="20" id="x83-PV-EZY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="copyTitle" destination="eRG-bn-PrZ" id="5uV-7S-eHS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="103.79464285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

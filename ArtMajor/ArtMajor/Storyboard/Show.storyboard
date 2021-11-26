@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4K3-E3-wTf">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--공연-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="DiscountVC" id="Y6W-OH-hqX" customClass="ShowVC" customModule="ArtMajor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="qFc-FQ-ZbZ">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="18c-1f-Mkt">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAe-JL-DIr">
+                                            <rect key="frame" x="20" y="5" width="91" height="39"/>
+                                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title=" 전 지역">
+                                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <imageReference key="image" image="chevron.up.chevron.down" catalog="system" symbolScale="small"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ui3-WN-tjD">
+                                            <rect key="frame" x="131" y="5" width="91" height="39"/>
+                                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title=" 전 체">
+                                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <imageReference key="image" image="chevron.up.chevron.down" catalog="system" symbolScale="small"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="MAe-JL-DIr" firstAttribute="leading" secondItem="18c-1f-Mkt" secondAttribute="leading" constant="20" id="1T7-Dr-ybJ"/>
+                                        <constraint firstItem="MAe-JL-DIr" firstAttribute="width" secondItem="18c-1f-Mkt" secondAttribute="width" multiplier="0.22" id="6oW-dB-NdG"/>
+                                        <constraint firstItem="Ui3-WN-tjD" firstAttribute="centerY" secondItem="18c-1f-Mkt" secondAttribute="centerY" id="8bq-b1-r7T"/>
+                                        <constraint firstItem="Ui3-WN-tjD" firstAttribute="width" secondItem="MAe-JL-DIr" secondAttribute="width" id="Ja2-zp-qqi"/>
+                                        <constraint firstAttribute="bottom" secondItem="MAe-JL-DIr" secondAttribute="bottom" constant="5" id="KCh-iI-RxK"/>
+                                        <constraint firstItem="MAe-JL-DIr" firstAttribute="centerY" secondItem="18c-1f-Mkt" secondAttribute="centerY" id="NdJ-tJ-IfG"/>
+                                        <constraint firstItem="Ui3-WN-tjD" firstAttribute="height" secondItem="MAe-JL-DIr" secondAttribute="height" id="PwE-WJ-cP3"/>
+                                        <constraint firstItem="MAe-JL-DIr" firstAttribute="top" secondItem="18c-1f-Mkt" secondAttribute="top" constant="5" id="j4U-ZC-Bvb"/>
+                                        <constraint firstItem="Ui3-WN-tjD" firstAttribute="leading" secondItem="MAe-JL-DIr" secondAttribute="trailing" constant="20" id="zTl-hj-5nm"/>
+                                    </constraints>
+                                </view>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qFc-FQ-ZbZ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="QYh-aY-qgV"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="qFc-FQ-ZbZ" secondAttribute="bottom" id="haW-xd-OAs"/>
+                            <constraint firstItem="qFc-FQ-ZbZ" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="kSH-mL-WLZ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="qFc-FQ-ZbZ" secondAttribute="trailing" id="t4s-RZ-cwW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="공연" id="mji-QQ-Cdz"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="selectGerne" destination="Ui3-WN-tjD" id="olt-oU-qat"/>
+                        <outlet property="selectHeader" destination="18c-1f-Mkt" id="5dt-Ut-EUx"/>
+                        <outlet property="selectLocal" destination="MAe-JL-DIr" id="dlx-jg-u0k"/>
+                        <outlet property="showTableView" destination="qFc-FQ-ZbZ" id="ct8-7o-Ju9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944.92753623188412" y="97.767857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0LX-qV-w0K">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4K3-E3-wTf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="공연icon" id="P3d-0G-9pk">
+                        <inset key="imageInsets" minX="240" minY="0.0" maxX="240" maxY="-10"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OZt-m8-II3">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="zkX-Bv-CTv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3PC-oh-USR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chevron.up.chevron.down" catalog="system" width="128" height="128"/>
+        <image name="공연icon" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
