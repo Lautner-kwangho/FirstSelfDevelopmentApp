@@ -70,8 +70,10 @@
 |  *Iteration 4*  ||
 |11|11월 25일|- 첫 화면 완성 <br/> - API filter 적용 <br/> - 두번째 화면 완성 <br/> - (시간 남을 시) 세번째 화면 캘린더 커스텀 진행 |10시간|[11일차](DailyReadMe/11일차.md)
 |12|11월 26일|- 두번째 화면 완성 <br/> - (시간 남을 시) 세번째 화면 캘린더 진행 |12시간|[12일차](DailyReadMe/12일차.md)
-|13|11월 27일|||[13일차](DailyReadMe/13일차.md)
-|14|11월 28일|||[14일차](DailyReadMe/14일차.md)
+|13|11월 27일|- 캘린더 구성 <br/> - Navigation Bar 설정|10시간|[13일차](DailyReadMe/13일차.md)
+|14|11월 28일|- page 점검 및 UI 변경 <br/> - 기능 추가 및 제거 |8시간|[14일차](DailyReadMe/14일차.md)
+|  *Iteration 4*  ||
+|14|11월 29일|||[15일차](DailyReadMe/15일차.md)
 ###### * All day = 9:30 ~ 03:00
 
 <br/><br/>
