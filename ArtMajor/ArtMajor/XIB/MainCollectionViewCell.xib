@@ -4,9 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -53,30 +51,18 @@
                             <constraint firstAttribute="bottom" secondItem="i35-DH-57N" secondAttribute="bottom" id="zrG-YM-h2W"/>
                         </constraints>
                     </view>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhe-Id-DqE">
-                        <rect key="frame" x="185" y="15" width="24" height="22"/>
-                        <color key="tintColor" systemColor="systemYellowColor"/>
-                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                        <state key="normal">
-                            <imageReference key="image" image="star" catalog="system" symbolScale="large"/>
-                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="15"/>
-                        </state>
-                    </button>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="yhe-Id-DqE" secondAttribute="trailing" constant="10" id="1UU-fF-OmI"/>
                 <constraint firstAttribute="bottom" secondItem="Tdd-uU-mmA" secondAttribute="bottom" id="44h-jp-o0c"/>
                 <constraint firstAttribute="trailing" secondItem="Tdd-uU-mmA" secondAttribute="trailing" id="UWI-bg-Ks2"/>
-                <constraint firstItem="yhe-Id-DqE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="gPa-DW-D6e"/>
                 <constraint firstItem="Tdd-uU-mmA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="heP-4c-zKB"/>
                 <constraint firstItem="Tdd-uU-mmA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="oj7-Q2-5Zq"/>
             </constraints>
             <size key="customSize" width="219" height="401"/>
             <connections>
                 <outlet property="mainCollectionBackgroundBlur" destination="2cC-JD-f2M" id="iYW-sk-JRG"/>
-                <outlet property="mainCollectionFavoriteButton" destination="yhe-Id-DqE" id="R5e-h7-Iec"/>
                 <outlet property="mainCollectionPosterImage" destination="Upg-Lu-twz" id="Ou4-Sm-oAj"/>
                 <outlet property="mainCollectionView" destination="Tdd-uU-mmA" id="YYL-vA-2hq"/>
             </connections>
@@ -84,10 +70,6 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="star" catalog="system" width="128" height="116"/>
         <image name="전시회 Sample" width="2481" height="3508"/>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
     </resources>
 </document>

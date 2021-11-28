@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 extension MainVC: UICollectionViewDelegateFlowLayout {
     
@@ -45,18 +46,9 @@ extension MainVC: UICollectionViewDelegateFlowLayout {
         
         cell.mainCollectionPosterImage.kingfishser(xmlData.posterImage)
         cell.mainCollectionBackgroundBlur.kingfishser(xmlData.posterImage)
-        cell.mainCollectionFavoriteButton.tag = indexPath.item
-        cell.mainCollectionFavoriteButton.addTarget(self, action: #selector(switchFavoriteButton), for: .touchUpInside)
         
         return cell
     }
-    
-    @objc func switchFavoriteButton(mainCollectionFavoriteButton button: UIButton) {
-        print(button.tag)
-//        false = !true
-//        mainCollectionView.reloadItems(at: [IndexPath(item: button.tag, section: 0)])
-    }
-    
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let storyboard = UIStoryboard(name: "MainInfo", bundle: nil)

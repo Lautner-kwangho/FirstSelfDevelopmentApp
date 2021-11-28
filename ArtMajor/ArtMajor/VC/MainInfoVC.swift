@@ -9,6 +9,8 @@ import UIKit
 import MapKit
 import CoreLocation
 import CoreLocationUI
+import RealmSwift
+import Toast
 
 class MainInfoVC: UIViewController {
 
@@ -21,13 +23,21 @@ class MainInfoVC: UIViewController {
     @IBOutlet weak var mainInfoPrice: UILabel!
     @IBOutlet weak var mainInfoPhone: UILabel!
     
+    @IBOutlet weak var mainInfoFavoriteButton: UIButton!
     @IBOutlet weak var mainInfoMapkit: MKMapView!
     let locationManager = CLLocationManager()
+    
+    var localRealm = try! Realm()
+    var favoriteTasks: Results<FavoriteRealm>!
+    
     var mainData: MainXML!
     var infoData: [MainInfoXML] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        favoriteTasks = localRealm.objects(FavoriteRealm.self)
+        mainInfoRealm()
         
         mainInfoApi(seq: mainData.seq)
         inputDataSetting()
@@ -44,7 +54,7 @@ class MainInfoVC: UIViewController {
         mainInfoView.layer.cornerRadius = UIScreen.main.bounds.height * 0.03
         
         mainInfoDate.adjustsFontSizeToFitWidth = true
-        
+        ToastManager.shared.isTapToDismissEnabled = true
     }
     
     func inputDataSetting() {
@@ -58,9 +68,9 @@ class MainInfoVC: UIViewController {
         let start = formatter.string(from: formatStartDate)
         let end = formatter.string(from: formatEndDate)
         
-        let title = mainData.title.replacingOccurrences(of: "&gt;", with: ">").replacingOccurrences(of: "&quot;", with: "\"").replacingOccurrences(of: "&amp;", with: "&").replacingOccurrences(of: "&apos;", with: "'").replacingOccurrences(of: "&lt;", with: "<")
+        let titleFilter = mainData.title.replacingOccurrences(of: "&gt;", with: ">").replacingOccurrences(of: "&quot;", with: "\"").replacingOccurrences(of: "&amp;", with: "&").replacingOccurrences(of: "&apos;", with: "'").replacingOccurrences(of: "&lt;", with: "<")
         
-        mainInfoTitle.text = title
+        mainInfoTitle.text = titleFilter
         mainInfoDate.text = "\(start) ~ \(end)"
         mainInfoArea.text = mainData.area
         

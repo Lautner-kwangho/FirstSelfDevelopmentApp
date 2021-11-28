@@ -11,6 +11,10 @@ class CalendarTableViewCell: UITableViewCell {
     
     static let identifier = "CalendarTableViewCell"
     
+    @IBOutlet weak var calendarImage: UIImageView!
+    @IBOutlet weak var calendarTitle: UILabel!
+    @IBOutlet weak var calendarDate: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()        
     }

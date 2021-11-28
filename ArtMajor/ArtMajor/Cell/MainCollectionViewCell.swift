@@ -14,7 +14,6 @@ class MainCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var mainCollectionView: UIView!
     @IBOutlet weak var mainCollectionBackgroundBlur: UIImageView!
     @IBOutlet weak var mainCollectionPosterImage: UIImageView!
-    @IBOutlet weak var mainCollectionFavoriteButton: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()

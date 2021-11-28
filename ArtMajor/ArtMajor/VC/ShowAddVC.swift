@@ -38,6 +38,7 @@ class ShowAddVC: UIViewController {
         super.viewDidLoad()
         showDetailApi(showCode: showCode!)
         showDetailUISetting()
+        showDetailNavigationScrollSetting()
         showAddCollectionViewSetting()
     }
     
@@ -66,6 +67,12 @@ class ShowAddVC: UIViewController {
     func detailSetting() {
         showAddVCImage.kingfishser(showImageURL ?? "")
         if let xml = showDetailXML.first {
+            let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width * 0.8, height: 50))
+            titleLabel.text = xml.showName
+            titleLabel.textAlignment = .center
+            titleLabel.adjustsFontSizeToFitWidth = true
+            self.navigationItem.titleView = titleLabel
+            
             detailGenre.text = "공연명( " + xml.genre + " )"
             detailBackground.kingfishser(xml.mainPoster)
             detailTitle.text = xml.showName
@@ -81,6 +88,19 @@ class ShowAddVC: UIViewController {
                 self.navigationController?.popViewController(animated: true)
             }
         }
+    }
+    
+    func showDetailNavigationScrollSetting() {
+        self.navigationController?.navigationBar.tintColor = .black
+        let backButtonItem = UIBarButtonItem(image: UIImage(systemName: "chevron.left"), style: .plain, target: self, action: #selector(backPage))
+        self.navigationItem.leftBarButtonItem = backButtonItem
+        
+        let rightSpacingItem = UIBarButtonItem(title: "  ", style: .plain, target: self, action: nil)
+        self.navigationItem.rightBarButtonItem = rightSpacingItem
+    }
+    
+    @objc func backPage() {
+        self.navigationController?.popViewController(animated: true)
     }
     
 }

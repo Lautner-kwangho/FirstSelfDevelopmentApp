@@ -26,6 +26,12 @@
 		E467102B274D007800384455 /* MainInfoVC+Mapkit_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E467102A274D007800384455 /* MainInfoVC+Mapkit_Extension.swift */; };
 		E467102D274D0D6100384455 /* MyProfileAddVC+PhotoPicker+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E467102C274D0D6100384455 /* MyProfileAddVC+PhotoPicker+Extension.swift */; };
 		E4671032274D155100384455 /* MyprofileVC+Chart+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4671031274D155100384455 /* MyprofileVC+Chart+extension.swift */; };
+		E4795FB827523A98006599A9 /* FavoriteRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4795FB727523A98006599A9 /* FavoriteRealm.swift */; };
+		E4795FBB27523D49006599A9 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E4795FBA27523D49006599A9 /* Realm */; };
+		E4795FBD27523D49006599A9 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E4795FBC27523D49006599A9 /* RealmSwift */; };
+		E4795FBF275282C0006599A9 /* MainInfo+Realm+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4795FBE275282C0006599A9 /* MainInfo+Realm+Extension.swift */; };
+		E4795FC227528689006599A9 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = E4795FC127528689006599A9 /* Toast */; };
+		E4795FC427528F88006599A9 /* Calendar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4795FC327528F87006599A9 /* Calendar+Extension.swift */; };
 		E48B48DA274F58AE00CD5067 /* MainVC+UIMenu+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48B48D9274F58AE00CD5067 /* MainVC+UIMenu+Extension.swift */; };
 		E48B48DC274F933600CD5067 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48B48DB274F933600CD5067 /* CALayer+Extension.swift */; };
 		E4B52531274681000074531B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E4B52530274681000074531B /* Alamofire */; };
@@ -110,6 +116,9 @@
 		E467102A274D007800384455 /* MainInfoVC+Mapkit_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainInfoVC+Mapkit_Extension.swift"; sourceTree = "<group>"; };
 		E467102C274D0D6100384455 /* MyProfileAddVC+PhotoPicker+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyProfileAddVC+PhotoPicker+Extension.swift"; sourceTree = "<group>"; };
 		E4671031274D155100384455 /* MyprofileVC+Chart+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyprofileVC+Chart+extension.swift"; sourceTree = "<group>"; };
+		E4795FB727523A98006599A9 /* FavoriteRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRealm.swift; sourceTree = "<group>"; };
+		E4795FBE275282C0006599A9 /* MainInfo+Realm+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainInfo+Realm+Extension.swift"; sourceTree = "<group>"; };
+		E4795FC327528F87006599A9 /* Calendar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+Extension.swift"; sourceTree = "<group>"; };
 		E48B48D9274F58AE00CD5067 /* MainVC+UIMenu+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC+UIMenu+Extension.swift"; sourceTree = "<group>"; };
 		E48B48DB274F933600CD5067 /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
 		E4B5253227469E4A0074531B /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
@@ -181,9 +190,12 @@
 				E446360E274D2A4400FFDE12 /* Charts in Frameworks */,
 				E4FDBBC9275123D600203DA4 /* SkeletonView in Frameworks */,
 				E4B525392746B2230074531B /* SWXMLHash in Frameworks */,
+				E4795FBD27523D49006599A9 /* RealmSwift in Frameworks */,
 				E4CA0F07274BCD73005EB578 /* JTAppleCalendar in Frameworks */,
 				E4B52531274681000074531B /* Alamofire in Frameworks */,
 				E4FDBBC627511B9000203DA4 /* JGProgressHUD in Frameworks */,
+				E4795FBB27523D49006599A9 /* Realm in Frameworks */,
+				E4795FC227528689006599A9 /* Toast in Frameworks */,
 				E44E2106274E777D00890E14 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +273,12 @@
 				E4D7AA6D274639B600983195 /* UIFont+Extension.swift */,
 				E4FDBBCC2751396900203DA4 /* VC+Placeholder+Extension.swift */,
 				E446360F274E102800FFDE12 /* ShowVC+UIMemu+Extension.swift */,
+				E4795FC327528F87006599A9 /* Calendar+Extension.swift */,
 				E4FDBBCA275124DD00203DA4 /* ShowAddVC+Skeleton+Extension.swift */,
 				E4D7AA81274648F800983195 /* MainVC+TabBar+Extension.swift */,
 				E48B48D9274F58AE00CD5067 /* MainVC+UIMenu+Extension.swift */,
 				E467102A274D007800384455 /* MainInfoVC+Mapkit_Extension.swift */,
+				E4795FBE275282C0006599A9 /* MainInfo+Realm+Extension.swift */,
 				E4671031274D155100384455 /* MyprofileVC+Chart+extension.swift */,
 				E467102C274D0D6100384455 /* MyProfileAddVC+PhotoPicker+Extension.swift */,
 			);
@@ -333,6 +347,7 @@
 				E44E2102274E5F6E00890E14 /* MainXMLIndex.swift */,
 				E454BD3B274FC106003083AC /* MainInfoXMLIndex.swift */,
 				E4F6718D2747BF0000489F0F /* SettingVCSection.swift */,
+				E4795FB727523A98006599A9 /* FavoriteRealm.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -387,6 +402,9 @@
 				E44E2105274E777D00890E14 /* Kingfisher */,
 				E4FDBBC527511B9000203DA4 /* JGProgressHUD */,
 				E4FDBBC8275123D600203DA4 /* SkeletonView */,
+				E4795FBA27523D49006599A9 /* Realm */,
+				E4795FBC27523D49006599A9 /* RealmSwift */,
+				E4795FC127528689006599A9 /* Toast */,
 			);
 			productName = ArtMajor;
 			productReference = E4D7AA4527462D9D00983195 /* ArtMajor.app */;
@@ -424,6 +442,8 @@
 				E44E2104274E777D00890E14 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				E4FDBBC427511B9000203DA4 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
 				E4FDBBC7275123D600203DA4 /* XCRemoteSwiftPackageReference "SkeletonView" */,
+				E4795FB927523D49006599A9 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				E4795FC027528689006599A9 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
 			);
 			productRefGroup = E4D7AA4627462D9D00983195 /* Products */;
 			projectDirPath = "";
@@ -485,6 +505,7 @@
 				E4CA0EFE274B75EB005EB578 /* ShowAdd+CollectionView+Extension.swift in Sources */,
 				E4D7AA7A27463DB900983195 /* ShowVC.swift in Sources */,
 				E4FDBBCB275124DD00203DA4 /* ShowAddVC+Skeleton+Extension.swift in Sources */,
+				E4795FB827523A98006599A9 /* FavoriteRealm.swift in Sources */,
 				E4D77905274FFAEC0096BFE7 /* ShowDetailXMLIndex.swift in Sources */,
 				E4F6717D27479A1B00489F0F /* SettingTableViewCell.swift in Sources */,
 				E4CA0EF6274B742A005EB578 /* ShowAddVC.swift in Sources */,
@@ -506,6 +527,7 @@
 				E4D7AA4927462D9D00983195 /* AppDelegate.swift in Sources */,
 				E4F671942747F70500489F0F /* MyProfileVC+CollectionView+Extension.swift in Sources */,
 				E4F6719A2748D2E300489F0F /* Alert+Extension.swift in Sources */,
+				E4795FBF275282C0006599A9 /* MainInfo+Realm+Extension.swift in Sources */,
 				E429F1922748DF9C00FA7212 /* MainInfoVC.swift in Sources */,
 				E4F6718C2747B66A00489F0F /* MainVC+CollectionView+Extension.swift in Sources */,
 				E4D7AA7E27463E0C00983195 /* MyProfileVC.swift in Sources */,
@@ -519,6 +541,7 @@
 				E4F671892747B60600489F0F /* MainCollectionViewCell.swift in Sources */,
 				E4D7AA4B27462D9D00983195 /* SceneDelegate.swift in Sources */,
 				E44E2108274E77BB00890E14 /* Kingfisher+Extension.swift in Sources */,
+				E4795FC427528F88006599A9 /* Calendar+Extension.swift in Sources */,
 				E4CA0EFB274B74EC005EB578 /* ShowAddCollectionViewCell.swift in Sources */,
 				E4B5253327469E4A0074531B /* String+Extension.swift in Sources */,
 				E4D7AA8927464EDA00983195 /* MainAPIManager.swift in Sources */,
@@ -766,6 +789,22 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		E4795FB927523D49006599A9 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		E4795FC027528689006599A9 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		E4B5252F274681000074531B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -818,6 +857,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E44E2104274E777D00890E14 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		E4795FBA27523D49006599A9 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4795FB927523D49006599A9 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		E4795FBC27523D49006599A9 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4795FB927523D49006599A9 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		E4795FC127528689006599A9 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4795FC027528689006599A9 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
 		};
 		E4B52530274681000074531B /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
