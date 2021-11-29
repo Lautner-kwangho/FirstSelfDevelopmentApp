@@ -6,10 +6,12 @@
       "scale" : "1x"
     },
     {
+      "filename" : "전시icon-2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "전시icon-3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

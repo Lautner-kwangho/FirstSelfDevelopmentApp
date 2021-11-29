@@ -78,6 +78,10 @@
 		E4D7AA8427464C1100983195 /* APIKEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D7AA8327464C1100983195 /* APIKEY.swift */; };
 		E4D7AA8927464EDA00983195 /* MainAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D7AA8827464EDA00983195 /* MainAPIManager.swift */; };
 		E4D7AA8B27464F6A00983195 /* MainVC+API+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D7AA8A27464F6A00983195 /* MainVC+API+Extension.swift */; };
+		E4F1A8672753CE8E0041EBDF /* MyPageRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F1A8662753CE8E0041EBDF /* MyPageRealm.swift */; };
+		E4F1A8692753E0000041EBDF /* MyprofileAddVC+FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F1A8682753E0000041EBDF /* MyprofileAddVC+FileManager+Extension.swift */; };
+		E4F1A86C27550C780041EBDF /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E4F1A86B27550C780041EBDF /* IQKeyboardManagerSwift */; };
+		E4F1A86E27552AEE0041EBDF /* MyProfileAddVC+PHPhoto+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F1A86D27552AEE0041EBDF /* MyProfileAddVC+PHPhoto+Extension.swift */; };
 		E4F67175274793F800489F0F /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F67173274793F800489F0F /* CalendarTableViewCell.swift */; };
 		E4F67176274793F800489F0F /* CalendarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4F67174274793F800489F0F /* CalendarTableViewCell.xib */; };
 		E4F6717A2747947F00489F0F /* CalendarVC+TableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F671792747947F00489F0F /* CalendarVC+TableView+Extension.swift */; };
@@ -164,6 +168,9 @@
 		E4D7AA8327464C1100983195 /* APIKEY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKEY.swift; sourceTree = "<group>"; };
 		E4D7AA8827464EDA00983195 /* MainAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAPIManager.swift; sourceTree = "<group>"; };
 		E4D7AA8A27464F6A00983195 /* MainVC+API+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC+API+Extension.swift"; sourceTree = "<group>"; };
+		E4F1A8662753CE8E0041EBDF /* MyPageRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageRealm.swift; sourceTree = "<group>"; };
+		E4F1A8682753E0000041EBDF /* MyprofileAddVC+FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyprofileAddVC+FileManager+Extension.swift"; sourceTree = "<group>"; };
+		E4F1A86D27552AEE0041EBDF /* MyProfileAddVC+PHPhoto+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyProfileAddVC+PHPhoto+Extension.swift"; sourceTree = "<group>"; };
 		E4F67173274793F800489F0F /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
 		E4F67174274793F800489F0F /* CalendarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarTableViewCell.xib; sourceTree = "<group>"; };
 		E4F671792747947F00489F0F /* CalendarVC+TableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalendarVC+TableView+Extension.swift"; sourceTree = "<group>"; };
@@ -196,6 +203,7 @@
 				E4FDBBC627511B9000203DA4 /* JGProgressHUD in Frameworks */,
 				E4795FBB27523D49006599A9 /* Realm in Frameworks */,
 				E4795FC227528689006599A9 /* Toast in Frameworks */,
+				E4F1A86C27550C780041EBDF /* IQKeyboardManagerSwift in Frameworks */,
 				E44E2106274E777D00890E14 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +289,8 @@
 				E4795FBE275282C0006599A9 /* MainInfo+Realm+Extension.swift */,
 				E4671031274D155100384455 /* MyprofileVC+Chart+extension.swift */,
 				E467102C274D0D6100384455 /* MyProfileAddVC+PhotoPicker+Extension.swift */,
+				E4F1A86D27552AEE0041EBDF /* MyProfileAddVC+PHPhoto+Extension.swift */,
+				E4F1A8682753E0000041EBDF /* MyprofileAddVC+FileManager+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -348,6 +358,7 @@
 				E454BD3B274FC106003083AC /* MainInfoXMLIndex.swift */,
 				E4F6718D2747BF0000489F0F /* SettingVCSection.swift */,
 				E4795FB727523A98006599A9 /* FavoriteRealm.swift */,
+				E4F1A8662753CE8E0041EBDF /* MyPageRealm.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -405,6 +416,7 @@
 				E4795FBA27523D49006599A9 /* Realm */,
 				E4795FBC27523D49006599A9 /* RealmSwift */,
 				E4795FC127528689006599A9 /* Toast */,
+				E4F1A86B27550C780041EBDF /* IQKeyboardManagerSwift */,
 			);
 			productName = ArtMajor;
 			productReference = E4D7AA4527462D9D00983195 /* ArtMajor.app */;
@@ -444,6 +456,7 @@
 				E4FDBBC7275123D600203DA4 /* XCRemoteSwiftPackageReference "SkeletonView" */,
 				E4795FB927523D49006599A9 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
 				E4795FC027528689006599A9 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+				E4F1A86A27550C780041EBDF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = E4D7AA4627462D9D00983195 /* Products */;
 			projectDirPath = "";
@@ -493,11 +506,13 @@
 				E4D7AA8B27464F6A00983195 /* MainVC+API+Extension.swift in Sources */,
 				E4D7AA652746303A00983195 /* VC+CollectionView.swift in Sources */,
 				E454BD40274FE7F0003083AC /* ShowXMLIndex.swift in Sources */,
+				E4F1A8672753CE8E0041EBDF /* MyPageRealm.swift in Sources */,
 				E4CA0EF1274B6DE5005EB578 /* ShowTableViewCell.swift in Sources */,
 				E4F6718027479A4600489F0F /* SettingVC+TableView+Extension.swift in Sources */,
 				E4D7AA6327462F8400983195 /* VC+TableView.swift in Sources */,
 				E454BD3E274FDD7C003083AC /* ShowAPIManager.swift in Sources */,
 				E4D7790D2750C3530096BFE7 /* ShowOriginPosterVC.swift in Sources */,
+				E4F1A8692753E0000041EBDF /* MyprofileAddVC+FileManager+Extension.swift in Sources */,
 				E4CA0F0B274BD6EA005EB578 /* CalendarVC+CollectionView+Extension.swift in Sources */,
 				E4D779072750A19A0096BFE7 /* ShowAddVC+API+Extension.swift in Sources */,
 				E454BD3A274FC095003083AC /* MainInfoVC+API+Extension.swift in Sources */,
@@ -524,6 +539,7 @@
 				E4671032274D155100384455 /* MyprofileVC+Chart+extension.swift in Sources */,
 				E48B48DC274F933600CD5067 /* CALayer+Extension.swift in Sources */,
 				E4CA0F04274BB0EA005EB578 /* SharePostVC.swift in Sources */,
+				E4F1A86E27552AEE0041EBDF /* MyProfileAddVC+PHPhoto+Extension.swift in Sources */,
 				E4D7AA4927462D9D00983195 /* AppDelegate.swift in Sources */,
 				E4F671942747F70500489F0F /* MyProfileVC+CollectionView+Extension.swift in Sources */,
 				E4F6719A2748D2E300489F0F /* Alert+Extension.swift in Sources */,
@@ -699,13 +715,16 @@
 				DEVELOPMENT_TEAM = J3L38PYNZQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ArtMajor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Art전공";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사용자가 사진을 일기 형식으로 작성하고 저장하기 위해서는 라이브러리 접근 권한이 필요합니다";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = " 사용자의 일정별 추억을 기록하기 위해서 사진 라이브러리에 접근이 필요합니다";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UIUserInterfaceStyle = White;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -715,7 +734,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -729,13 +748,16 @@
 				DEVELOPMENT_TEAM = J3L38PYNZQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ArtMajor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Art전공";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사용자가 사진을 일기 형식으로 작성하고 저장하기 위해서는 라이브러리 접근 권한이 필요합니다";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = " 사용자의 일정별 추억을 기록하기 위해서 사진 라이브러리에 접근이 필요합니다";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UIUserInterfaceStyle = White;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -745,7 +767,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -829,6 +851,14 @@
 				minimumVersion = 8.0.0;
 			};
 		};
+		E4F1A86A27550C780041EBDF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 		E4FDBBC427511B9000203DA4 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
@@ -887,6 +917,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E4CA0F05274BCD73005EB578 /* XCRemoteSwiftPackageReference "JTAppleCalendar" */;
 			productName = JTAppleCalendar;
+		};
+		E4F1A86B27550C780041EBDF /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4F1A86A27550C780041EBDF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
 		};
 		E4FDBBC527511B9000203DA4 /* JGProgressHUD */ = {
 			isa = XCSwiftPackageProductDependency;

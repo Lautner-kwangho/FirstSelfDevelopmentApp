@@ -29,5 +29,18 @@ extension CalendarVC {
         
         return cell
     }
+
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        true
+    }
     
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        let row = favoriteTasks[indexPath.row]
+        self.event.remove(row.dateFrom.replacingOccurrences(of: ".", with: ""))
+        try! localRealm.write {
+            localRealm.delete(row)
+            tableView.reloadData()
+        }
+        self.calendarCollectionView.reloadData()
+    }
 }

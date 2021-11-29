@@ -28,7 +28,6 @@ extension MainVC {
             let local = UIAction(title: list, image: nil) { _ in
                 self.mainLocalSelectedButton.setTitle(list, for: .normal)
                 self.mainLocalSelectedButton.setImage(nil, for: .normal)
-                print(list)
                 if list == "전체" {
                     self.apiTest(place: "")
                 } else {

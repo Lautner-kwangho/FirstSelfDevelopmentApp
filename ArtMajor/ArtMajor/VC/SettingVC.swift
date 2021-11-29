@@ -10,9 +10,10 @@ import UIKit
 class SettingVC: UIViewController {
     
     let settingList = [
-        ["사용자"],
-        ["백업하기", "복구하기"],
-        ["앱 기능 및 저작권", "앱 현재 버전"]
+//        ["사용자"],
+//        ["백업하기", "복구하기"],
+//        ["앱 기능 및 저작권", "앱 현재 버전"]
+        ["앱 기능 및 저작권"]
     ]
     
     @IBOutlet weak var settingTableView: UITableView!

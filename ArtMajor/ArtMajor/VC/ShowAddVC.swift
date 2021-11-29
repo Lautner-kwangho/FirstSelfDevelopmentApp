@@ -82,7 +82,7 @@ class ShowAddVC: UIViewController {
             detailPlace.text = xml.place
             detailPrice.text = xml.price
             detailAge.text = xml.age
-            detailCast.text = xml.cast
+            detailCast.text = xml.cast == " " ? "정보 없음" : xml.cast
         } else {
             self.alertCustom(title: "통신 오류", message: "인터넷 상태가 원활하지 않습니다 재시도 해주세요 ", actionTitle: "확인") { UIAlertAction in
                 self.navigationController?.popViewController(animated: true)

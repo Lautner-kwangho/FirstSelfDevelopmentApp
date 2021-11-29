@@ -53,7 +53,7 @@ extension ShowAddVC: UICollectionViewDelegateFlowLayout {
             print(xml)
             cell.showAddPoster.kingfishser(xml)
         }
-        cell.showAddOringButton.addTarget(self, action: #selector(goToOriginPoster), for: .touchUpInside)
+//        cell.showAddOringButton.addTarget(self, action: #selector(goToOriginPoster), for: .touchUpInside)
         return cell
     }
     

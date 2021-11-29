@@ -141,7 +141,6 @@ extension CalendarVC: JTACMonthViewDelegate, JTACMonthViewDataSource {
         let date = visibleDates.monthDates.first!.date
         formatter.dateFormat = "yyyy년 M월"
         calendarMonthTitle.text = formatter.string(from: date)
-        print(visibleDates.monthDates)
         self.calendarCollectionView.reloadData()
     }
     

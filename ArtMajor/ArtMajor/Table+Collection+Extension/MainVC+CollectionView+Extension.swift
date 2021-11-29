@@ -61,14 +61,8 @@ extension MainVC: UICollectionViewDelegateFlowLayout {
         
         self.present(vc, animated: true)
     }
-    
-    func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
-        print(12)
-    }
 
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        print(self.mainIndexURL)
-        
         mainCollectionViewBackground = MainCollectionViewCell().mainCollectionPosterImage
     }
     

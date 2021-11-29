@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--SettingVC-->
+        <!--설  정-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
                 <viewController storyboardIdentifier="SettingVC" id="Y6W-OH-hqX" customClass="SettingVC" customModule="ArtMajor" customModuleProvider="target" sceneMemberID="viewController">
@@ -29,7 +29,7 @@
                             <constraint firstItem="3hN-rA-aOK" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="uq6-1c-UAa"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="lsW-Bh-i7h"/>
+                    <navigationItem key="navigationItem" title="설  정" id="lsW-Bh-i7h"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="settingTableView" destination="3hN-rA-aOK" id="LJg-R7-2Sd"/>
@@ -39,11 +39,11 @@
             </objects>
             <point key="canvasLocation" x="944.92753623188412" y="97.767857142857139"/>
         </scene>
-        <!--Item-->
+        <!--설정-->
         <scene sceneID="HF7-AK-7dh">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HLW-3e-tTM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="cyZ-h5-9s4"/>
+                    <tabBarItem key="tabBarItem" title="설정" image="설정icon" id="cyZ-h5-9s4"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GO3-Uz-EB5">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -59,4 +59,7 @@
             <point key="canvasLocation" x="34.782608695652179" y="97.767857142857139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="설정icon" width="25" height="25"/>
+    </resources>
 </document>

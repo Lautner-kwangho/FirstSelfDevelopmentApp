@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2021년 8월" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQI-iz-K3p">
-                                        <rect key="frame" x="157" y="10" width="100" height="19.5"/>
+                                        <rect key="frame" x="10" y="0.0" width="100" height="25.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -77,11 +77,11 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="ZQI-iz-K3p" firstAttribute="centerX" secondItem="8oz-5y-MP4" secondAttribute="centerX" id="2fZ-vv-Mmo"/>
                                     <constraint firstItem="VTC-F1-MBf" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ZQI-iz-K3p" secondAttribute="bottom" constant="10" id="QaD-vm-pDq"/>
+                                    <constraint firstItem="ZQI-iz-K3p" firstAttribute="leading" secondItem="8oz-5y-MP4" secondAttribute="leading" constant="10" id="RZh-Ue-Lgf"/>
                                     <constraint firstAttribute="trailing" secondItem="VTC-F1-MBf" secondAttribute="trailing" id="Yjm-ek-NzV"/>
                                     <constraint firstAttribute="height" constant="60" id="cDD-Fj-FJT"/>
-                                    <constraint firstItem="ZQI-iz-K3p" firstAttribute="top" secondItem="8oz-5y-MP4" secondAttribute="top" constant="10" id="gnA-7n-HaJ"/>
+                                    <constraint firstItem="ZQI-iz-K3p" firstAttribute="top" secondItem="8oz-5y-MP4" secondAttribute="top" id="gnA-7n-HaJ"/>
                                     <constraint firstAttribute="bottom" secondItem="VTC-F1-MBf" secondAttribute="bottom" id="qKg-ck-hBs"/>
                                     <constraint firstItem="VTC-F1-MBf" firstAttribute="leading" secondItem="8oz-5y-MP4" secondAttribute="leading" id="qpJ-HI-yw3"/>
                                 </constraints>
@@ -119,8 +119,8 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="􀆅" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="UlE-td-8ND">
-                                                            <rect key="frame" x="38.5" y="58.5" width="16.5" height="29.5"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="UlE-td-8ND">
+                                                            <rect key="frame" x="33" y="58.5" width="27.5" height="29.5"/>
                                                             <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                                             <color key="textColor" systemColor="systemPinkColor"/>
                                                             <nil key="highlightedColor"/>
@@ -192,13 +192,11 @@
             </objects>
             <point key="canvasLocation" x="944.92753623188412" y="97.767857142857139"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--달력-->
         <scene sceneID="whg-BF-zmF">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Fc-E6-TbJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="달력icon" id="c4M-oN-7fy">
-                        <inset key="imageInsets" minX="245" minY="0.0" maxX="245" maxY="-10"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="달력" image="달력icon" id="c4M-oN-7fy"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="sRd-oS-XbN">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -215,7 +213,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="달력icon" width="512" height="512"/>
+        <image name="달력icon" width="25" height="25"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

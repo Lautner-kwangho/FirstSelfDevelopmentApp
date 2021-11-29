@@ -17,47 +17,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRG-bn-PrZ">
-                                <rect key="frame" x="183" y="54" width="48" height="25"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="25" id="L70-2V-WoP"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="AUs-C0-Tff">
-                                <rect key="frame" x="20" y="99" width="374" height="450"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8IO-Rr-oJY">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rND-Hc-Ag9">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="234.5"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KOPIS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25P-kC-FMw">
-                                                <rect key="frame" x="20" y="20" width="48" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yu-1T-Wf3">
-                                                <rect key="frame" x="20" y="60.5" width="334" height="133"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <string key="text">∙ 집계기간 : 최종 집계 YYYY.MM.DD ∙ 집계대상 : 모든 공연 데이터 전송기관 ∙아래 집계 데이터는 공연예술통합전산망 연계기관의 티켓판매시스템에서 발권된 분량을 기준으로 제공함으로 해당 공연의 전체 관객 수와 차이가 있을 수 있습니다. ∙API : 예술경영지원센터 공연예술통합 전산망 (www.kopis.or.kr)</string>
-                                                <color key="textColor" systemColor="labelColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRG-bn-PrZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="25"/>
                                         <constraints>
-                                            <constraint firstItem="25P-kC-FMw" firstAttribute="leading" secondItem="rND-Hc-Ag9" secondAttribute="leading" constant="20" id="DN0-1U-UsU"/>
-                                            <constraint firstItem="8yu-1T-Wf3" firstAttribute="top" secondItem="25P-kC-FMw" secondAttribute="bottom" constant="20" id="Pko-Qm-0g5"/>
-                                            <constraint firstItem="25P-kC-FMw" firstAttribute="top" secondItem="rND-Hc-Ag9" secondAttribute="top" constant="20" id="SXd-01-mdb"/>
-                                            <constraint firstAttribute="trailing" secondItem="8yu-1T-Wf3" secondAttribute="trailing" constant="20" id="Ty5-jn-EbY"/>
-                                            <constraint firstItem="8yu-1T-Wf3" firstAttribute="leading" secondItem="rND-Hc-Ag9" secondAttribute="leading" constant="20" id="jRz-O0-oNM"/>
+                                            <constraint firstAttribute="height" constant="25" id="L70-2V-WoP"/>
                                         </constraints>
-                                    </view>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n9t-rd-7b5">
-                                        <rect key="frame" x="0.0" y="244.5" width="374" height="205.5"/>
+                                        <rect key="frame" x="0.0" y="382.5" width="414" height="217"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="앱 기능" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRw-q7-E3m">
                                                 <rect key="frame" x="20" y="20" width="48.5" height="20.5"/>
@@ -66,10 +39,10 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JW-eO-KS3">
-                                                <rect key="frame" x="20" y="60.5" width="334" height="116.5"/>
+                                                <rect key="frame" x="20" y="60.5" width="374" height="116.5"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <string key="text">version 1.0.0  
-∙ 미술, 전시, 공연 정보를 얻을 수 있습니다 ∙ 원하시는 미술 전시 일정을 관리하고 체크할 수 있습니다 ∙ 지역과 분야별로 나눠서 정보를 얻을 수 있습니다 ∙ </string>
+∙ 현재 진행 중인 미술, 전시, 공연 정보를 얻을 수 있습니다 ∙ 원하시는 미술 전시 일정을 관리하고 체크할 수 있습니다 ∙ 지역과 분야별로 나눠서 정보를 얻을 수 있습니다 ∙ 기억하고 싶은 순간을 저장하여 볼 수 있습니다</string>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -77,31 +50,88 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aRw-q7-E3m" secondAttribute="trailing" constant="10" id="09Y-ev-9AU"/>
                                             <constraint firstItem="aRw-q7-E3m" firstAttribute="leading" secondItem="n9t-rd-7b5" secondAttribute="leading" constant="20" id="Aqg-8l-1D6"/>
                                             <constraint firstItem="aRw-q7-E3m" firstAttribute="top" secondItem="n9t-rd-7b5" secondAttribute="top" constant="20" id="Gv5-tW-YPc"/>
                                             <constraint firstAttribute="trailing" secondItem="6JW-eO-KS3" secondAttribute="trailing" constant="20" id="HPi-pF-Ywc"/>
                                             <constraint firstItem="6JW-eO-KS3" firstAttribute="leading" secondItem="n9t-rd-7b5" secondAttribute="leading" constant="20" id="mbV-C2-aNo"/>
                                             <constraint firstItem="6JW-eO-KS3" firstAttribute="top" secondItem="aRw-q7-E3m" secondAttribute="bottom" constant="20" id="rIS-FB-8NF"/>
+                                            <constraint firstAttribute="bottom" secondItem="6JW-eO-KS3" secondAttribute="bottom" constant="40" id="zCq-Pr-GBy"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rND-Hc-Ag9">
+                                        <rect key="frame" x="0.0" y="25" width="414" height="357.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KOPIS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25P-kC-FMw">
+                                                <rect key="frame" x="20" y="20" width="48" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yu-1T-Wf3">
+                                                <rect key="frame" x="20" y="60.5" width="374" height="133"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">∙ 집계기간 : 최종 집계 YYYY.MM.DD ∙ 집계대상 : 모든 공연 데이터 전송기관 ∙아래 집계 데이터는 공연예술통합전산망 연계기관의 티켓판매시스템에서 발권된 분량을 기준으로 제공함으로 해당 공연의 전체 관객 수와 차이가 있을 수 있습니다. ∙API : 예술경영지원센터 공연예술통합 전산망 (www.kopis.or.kr)</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="문화포털(공공문화정보)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Tm-gR-TxR">
+                                                <rect key="frame" x="20" y="213.5" width="159.5" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" text="∙ 한국문화정보원에서 제공하는 정보를 바탕으로 사용자에게 정보를 제공합니다 ∙ 전국을 대상으로 메뉴를 선택할 수 있으나 전시회 등 미술관 일정에 따라서 정보 제공이 없을 수도 있습니다" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4au-on-eYV">
+                                                <rect key="frame" x="20" y="254.5" width="374" height="83"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1Tm-gR-TxR" secondAttribute="trailing" constant="20" id="2YM-pd-CeN"/>
+                                            <constraint firstItem="4au-on-eYV" firstAttribute="top" secondItem="1Tm-gR-TxR" secondAttribute="bottom" constant="20" id="AKA-Yb-FqO"/>
+                                            <constraint firstItem="25P-kC-FMw" firstAttribute="leading" secondItem="rND-Hc-Ag9" secondAttribute="leading" constant="20" id="DN0-1U-UsU"/>
+                                            <constraint firstAttribute="bottom" secondItem="4au-on-eYV" secondAttribute="bottom" constant="20" id="HbM-jP-8HD"/>
+                                            <constraint firstItem="1Tm-gR-TxR" firstAttribute="leading" secondItem="rND-Hc-Ag9" secondAttribute="leading" constant="20" id="PXL-L4-x0w"/>
+                                            <constraint firstItem="8yu-1T-Wf3" firstAttribute="top" secondItem="25P-kC-FMw" secondAttribute="bottom" constant="20" id="Pko-Qm-0g5"/>
+                                            <constraint firstItem="25P-kC-FMw" firstAttribute="top" secondItem="rND-Hc-Ag9" secondAttribute="top" constant="20" id="SXd-01-mdb"/>
+                                            <constraint firstAttribute="trailing" secondItem="8yu-1T-Wf3" secondAttribute="trailing" constant="20" id="Ty5-jn-EbY"/>
+                                            <constraint firstItem="4au-on-eYV" firstAttribute="leading" secondItem="rND-Hc-Ag9" secondAttribute="leading" constant="20" id="bdk-TY-6Xj"/>
+                                            <constraint firstItem="8yu-1T-Wf3" firstAttribute="leading" secondItem="rND-Hc-Ag9" secondAttribute="leading" constant="20" id="jRz-O0-oNM"/>
+                                            <constraint firstAttribute="trailing" secondItem="4au-on-eYV" secondAttribute="trailing" constant="20" id="rF3-SF-k53"/>
+                                            <constraint firstItem="1Tm-gR-TxR" firstAttribute="top" secondItem="8yu-1T-Wf3" secondAttribute="bottom" constant="20" id="sn0-He-lqM"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="450" id="uKF-Pp-z2N"/>
+                                    <constraint firstItem="eRG-bn-PrZ" firstAttribute="trailing" secondItem="Hrn-mh-2Te" secondAttribute="trailing" id="1Mq-gd-UVs"/>
+                                    <constraint firstItem="rND-Hc-Ag9" firstAttribute="trailing" secondItem="eRG-bn-PrZ" secondAttribute="trailing" id="A8T-Hm-nTP"/>
+                                    <constraint firstItem="n9t-rd-7b5" firstAttribute="trailing" secondItem="rND-Hc-Ag9" secondAttribute="trailing" id="E0r-63-zyh"/>
+                                    <constraint firstItem="eRG-bn-PrZ" firstAttribute="leading" secondItem="Hrn-mh-2Te" secondAttribute="leading" id="NIL-iB-Bhk"/>
+                                    <constraint firstItem="rND-Hc-Ag9" firstAttribute="width" secondItem="25q-Mj-OBq" secondAttribute="width" id="U16-Ir-4fb"/>
+                                    <constraint firstItem="n9t-rd-7b5" firstAttribute="leading" secondItem="rND-Hc-Ag9" secondAttribute="leading" id="afA-Xw-aY6"/>
+                                    <constraint firstItem="rND-Hc-Ag9" firstAttribute="top" secondItem="eRG-bn-PrZ" secondAttribute="bottom" id="gee-qd-8qn"/>
+                                    <constraint firstItem="eRG-bn-PrZ" firstAttribute="width" secondItem="25q-Mj-OBq" secondAttribute="width" id="nje-Bs-deU"/>
+                                    <constraint firstItem="n9t-rd-7b5" firstAttribute="top" secondItem="rND-Hc-Ag9" secondAttribute="bottom" id="r0K-kV-3Wf"/>
+                                    <constraint firstItem="rND-Hc-Ag9" firstAttribute="leading" secondItem="eRG-bn-PrZ" secondAttribute="leading" id="wuC-32-l3B"/>
+                                    <constraint firstItem="n9t-rd-7b5" firstAttribute="bottom" secondItem="Hrn-mh-2Te" secondAttribute="bottom" id="xLV-cO-fEY"/>
+                                    <constraint firstItem="eRG-bn-PrZ" firstAttribute="top" secondItem="Hrn-mh-2Te" secondAttribute="top" id="zYh-KE-9FM"/>
                                 </constraints>
-                            </stackView>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Hrn-mh-2Te"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="25q-Mj-OBq"/>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="eRG-bn-PrZ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="3Wz-i1-XIQ"/>
-                            <constraint firstItem="AUs-C0-Tff" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Ihr-NM-hUj"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eRG-bn-PrZ" secondAttribute="trailing" constant="20" id="U26-O4-bXB"/>
-                            <constraint firstItem="eRG-bn-PrZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="VGc-ab-7gn"/>
-                            <constraint firstItem="AUs-C0-Tff" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="imu-fE-qdW"/>
-                            <constraint firstItem="AUs-C0-Tff" firstAttribute="top" secondItem="eRG-bn-PrZ" secondAttribute="bottom" constant="20" id="jVU-e1-2bw"/>
-                            <constraint firstItem="eRG-bn-PrZ" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="svJ-Ke-LjZ"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="AUs-C0-Tff" secondAttribute="bottom" id="tHU-k4-wqY"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="AUs-C0-Tff" secondAttribute="trailing" constant="20" id="x83-PV-EZY"/>
+                            <constraint firstAttribute="trailing" secondItem="8IO-Rr-oJY" secondAttribute="trailing" id="XGi-eR-kL0"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="8IO-Rr-oJY" secondAttribute="bottom" id="YuE-2F-TV3"/>
+                            <constraint firstItem="8IO-Rr-oJY" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="aiy-oQ-lFq"/>
+                            <constraint firstItem="8IO-Rr-oJY" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="uJj-yN-D0T"/>
                         </constraints>
                     </view>
                     <connections>

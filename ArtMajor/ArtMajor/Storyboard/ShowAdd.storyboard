@@ -27,22 +27,13 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ecM-qE-bX6">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="534.5"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gxe-S5-O8F">
-                                                <rect key="frame" x="311" y="496.5" width="93" height="28"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="원본 사진 보기">
-                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
-                                                </buttonConfiguration>
-                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="ecM-qE-bX6" secondAttribute="bottom" constant="30" id="0fj-TD-fIt"/>
                                             <constraint firstItem="ecM-qE-bX6" firstAttribute="top" secondItem="SeS-zF-gYt" secondAttribute="top" id="4Qu-dh-sqm"/>
-                                            <constraint firstAttribute="bottom" secondItem="Gxe-S5-O8F" secondAttribute="bottom" constant="40" id="Hie-Se-l1K"/>
                                             <constraint firstAttribute="trailing" secondItem="ecM-qE-bX6" secondAttribute="trailing" id="iCO-Az-1oV"/>
                                             <constraint firstItem="ecM-qE-bX6" firstAttribute="leading" secondItem="SeS-zF-gYt" secondAttribute="leading" id="jBE-5N-7NW"/>
-                                            <constraint firstAttribute="trailing" secondItem="Gxe-S5-O8F" secondAttribute="trailing" constant="10" id="xTf-Gv-ZKL"/>
                                         </constraints>
                                     </view>
                                     <collectionView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="30Q-SR-YDa">
@@ -74,7 +65,7 @@
                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2iM-p2-e3J">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="594.5"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="6cj-Ly-SFE">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="595"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="594.5"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </view>
                                                 <blurEffect style="regular"/>

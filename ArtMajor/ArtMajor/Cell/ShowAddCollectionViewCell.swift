@@ -32,7 +32,7 @@ class ShowAddCollectionViewCell: UICollectionViewCell {
             let viewHieght = UIScreen.main.bounds.height
             
             let imageHeight = ( viewHieght * width ) / viewWidth
-            print(imageHeight)
+//            print(imageHeight)
             
             let myFloat = NSNumber.init(value: imageHeight).floatValue
             let myCGFloat = CGFloat(myFloat)

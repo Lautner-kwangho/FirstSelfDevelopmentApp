@@ -20,27 +20,17 @@
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="공연  Sample" translatesAutoresizingMaskIntoConstraints="NO" id="9LH-20-8CJ">
                         <rect key="frame" x="0.0" y="0.0" width="214" height="223"/>
                     </imageView>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gh-SG-oN0">
-                        <rect key="frame" x="91" y="162" width="113" height="31"/>
-                        <state key="normal" title="Button"/>
-                        <buttonConfiguration key="configuration" style="plain" title="원본이미지 보기">
-                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </buttonConfiguration>
-                    </button>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
                 <constraint firstItem="9LH-20-8CJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5vT-PH-Dod"/>
-                <constraint firstAttribute="bottom" secondItem="5gh-SG-oN0" secondAttribute="bottom" constant="30" id="Gxi-Pz-HSB"/>
                 <constraint firstItem="9LH-20-8CJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="KBD-ju-16g"/>
-                <constraint firstAttribute="trailing" secondItem="5gh-SG-oN0" secondAttribute="trailing" constant="10" id="MCS-8k-Lfo"/>
                 <constraint firstAttribute="trailing" secondItem="9LH-20-8CJ" secondAttribute="trailing" id="bd6-S5-a3L"/>
                 <constraint firstAttribute="bottom" secondItem="9LH-20-8CJ" secondAttribute="bottom" id="fKe-K9-8AJ"/>
             </constraints>
             <size key="customSize" width="214" height="223"/>
             <connections>
-                <outlet property="showAddOringButton" destination="5gh-SG-oN0" id="9uS-N1-KM4"/>
                 <outlet property="showAddPoster" destination="9LH-20-8CJ" id="rws-RQ-vzN"/>
             </connections>
             <point key="canvasLocation" x="256.52173913043481" y="178.45982142857142"/>

@@ -11,9 +11,14 @@ class MyProfileCollectionViewCell: UICollectionViewCell {
     
     static let identifier = "MyProfileCollectionViewCell"
     
+    @IBOutlet weak var myImageView: UIImageView!
+    @IBOutlet weak var myDate: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        myDate.adjustsFontSizeToFitWidth = true
+        myDate.sizeToFit()
     }
 
 }

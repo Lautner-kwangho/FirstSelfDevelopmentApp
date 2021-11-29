@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--전시회-->
+        <!--전 시 회-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainVC" customModule="ArtMajor" customModuleProvider="target" sceneMemberID="viewController">
@@ -86,7 +86,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HBG-l9-BhM" secondAttribute="trailing" id="zCn-4v-HUU"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="전시회" id="Z1I-GF-9Dz"/>
+                    <navigationItem key="navigationItem" title="전 시 회" id="Z1I-GF-9Dz"/>
                     <connections>
                         <outlet property="backgroundView" destination="HBG-l9-BhM" id="IvV-W1-svi"/>
                         <outlet property="mainCollectionView" destination="FVf-Eg-cwk" id="Vha-Mm-vFM"/>
@@ -125,7 +125,7 @@
         <scene sceneID="YCm-sX-9oK">
             <objects>
                 <viewControllerPlaceholder storyboardName="Show" id="TUC-vT-QY6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="공연icon" id="pTv-4g-aUH">
+                    <tabBarItem key="tabBarItem" title="공연" image="공연icon" id="pTv-4g-aUH">
                         <inset key="imageInsets" minX="235" minY="0.0" maxX="235" maxY="0.0"/>
                     </tabBarItem>
                 </viewControllerPlaceholder>
@@ -137,9 +137,7 @@
         <scene sceneID="5Vj-zl-D9L">
             <objects>
                 <viewControllerPlaceholder storyboardName="Calendar" id="3iH-lT-X8g" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="달력icon" id="6p3-UX-H6K">
-                        <inset key="imageInsets" minX="235" minY="0.0" maxX="235" maxY="0.0"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="달력" image="달력icon" id="6p3-UX-H6K"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ggQ-5t-J3A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -149,7 +147,7 @@
         <scene sceneID="AOO-Kw-YcI">
             <objects>
                 <viewControllerPlaceholder storyboardName="MyProfile" id="zeA-Tm-LHJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Myprofile" image="square.and.arrow.up.on.square.fill" catalog="system" id="AlH-kx-Ync"/>
+                    <tabBarItem key="tabBarItem" title="저장" image="페이지icon" id="AlH-kx-Ync"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pzf-Ah-GQV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -159,19 +157,17 @@
         <scene sceneID="Uvh-RK-lfy">
             <objects>
                 <viewControllerPlaceholder storyboardName="Setting" id="5yK-QF-WIk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Setting" image="pencil" catalog="system" id="Vso-x1-kXy"/>
+                    <tabBarItem key="tabBarItem" title="설정" image="설정icon" id="Vso-x1-kXy"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4XX-18-h9W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="520" y="692"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--전시-->
         <scene sceneID="RMS-hq-e7m">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4UF-pq-oXE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="전시icon" id="HZr-h4-cBQ">
-                        <inset key="imageInsets" minX="240" minY="0.0" maxX="240" maxY="-10"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="전시" image="전시icon" id="HZr-h4-cBQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ea3-zz-zv7">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -188,11 +184,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="pencil" catalog="system" width="128" height="113"/>
-        <image name="square.and.arrow.up.on.square.fill" catalog="system" width="117" height="128"/>
-        <image name="공연icon" width="512" height="512"/>
-        <image name="달력icon" width="512" height="512"/>
-        <image name="전시icon" width="512" height="512"/>
+        <image name="공연icon" width="25" height="25"/>
+        <image name="달력icon" width="25" height="25"/>
+        <image name="설정icon" width="25" height="25"/>
+        <image name="전시icon" width="25" height="25"/>
+        <image name="페이지icon" width="25" height="25"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

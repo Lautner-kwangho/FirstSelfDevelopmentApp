@@ -29,7 +29,7 @@ extension SettingVC {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         //        return SettingVCSection.allCases.count
-        return 3
+        return 1 // 여기 수정ㅎ
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -42,15 +42,15 @@ extension SettingVC {
         copyVC.text = settingList[indexPath.section][indexPath.row]
         
         switch indexPath.section {
+//        case 0:
+//            self.navigationController?.pushViewController(vc, animated: true)
+//        case 1:
+//            if indexPath.row == 0 {
+//                alert(title: "11테스트입니당", message: "test", actionTitle: "ㅇㅋ")
+//            } else {
+//                alert(title: "22테스트입니당", message: "test", actionTitle: "ㅇㅋ")
+//            }
         case 0:
-            self.navigationController?.pushViewController(vc, animated: true)
-        case 1:
-            if indexPath.row == 0 {
-                alert(title: "11테스트입니당", message: "test", actionTitle: "ㅇㅋ")
-            } else {
-                alert(title: "22테스트입니당", message: "test", actionTitle: "ㅇㅋ")
-            }
-        case 2:
             if indexPath.row == 0 {
                 self.navigationController?.pushViewController(copyVC, animated: true)
             } else {

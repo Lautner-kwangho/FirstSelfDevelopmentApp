@@ -52,6 +52,7 @@ class MainInfoVC: UIViewController {
     func infoUIsetting() {
         mainInfoView.clipsToBounds = true
         mainInfoView.layer.cornerRadius = UIScreen.main.bounds.height * 0.03
+        mainInfoFavoriteButton.layer.cornerRadius = UIScreen.main.bounds.height * 0.01
         
         mainInfoDate.adjustsFontSizeToFitWidth = true
         ToastManager.shared.isTapToDismissEnabled = true
