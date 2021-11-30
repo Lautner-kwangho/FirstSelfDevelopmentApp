@@ -12,6 +12,7 @@ class MainVC: UIViewController {
     
     @IBOutlet weak var mainView: UIView!
     @IBOutlet weak var mainLocalSelectedButton: UIButton!
+    @IBOutlet weak var mainLocalSelectButtonHide: UIButton!
     @IBOutlet weak var mainCollectionView: UICollectionView!
     
     @IBOutlet weak var backgroundView: UIView!
@@ -19,6 +20,7 @@ class MainVC: UIViewController {
     
     var localRealm = try! Realm()
     var favoriteTasks: Results<FavoriteRealm>!
+    var localSelectedButton = false
     
     var gradientLayer: CAGradientLayer = {
         let gradient = CAGradientLayer()
@@ -43,11 +45,10 @@ class MainVC: UIViewController {
             
         RealmSetting()
         
-        apiTest(place: "")
         mainButtonSetting()
         mainSelectLocalButtonSetting()
         mainCollectionViewSetting()
-        setNoDataPlaceholder("왼쪽 상단을 버튼 지역을 클릭해주시면\n현재진행되고 있는 전시회 정보가 나옵니다", collectionView: mainCollectionView)
+        setNoDataPlaceholder("왼쪽 상단 버튼 클릭 후 지역을 선택해주시면\n현재진행되고 있는 전시회 정보가 나옵니다", collectionView: mainCollectionView)
         
         // 출시 전에 삭제할 것!
         try! localRealm.write {
@@ -72,4 +73,16 @@ class MainVC: UIViewController {
 //        mainCollectionViewBackground.addSubview(visualEffectView)
     }
     
+    @IBAction func mainLocalSelectButtonHide(_ sender: UIButton) {
+        localSelectedButton = !localSelectedButton
+            
+        if localSelectedButton {
+            mainLocalSelectButtonHide.setImage(UIImage(systemName: "chevron.up"), for: .normal)
+            mainLocalSelectedButton.isHidden = false
+        } else {
+            mainLocalSelectButtonHide.setImage(UIImage(systemName: "chevron.down"), for: .normal)
+            mainLocalSelectedButton.isHidden = true
+        }
+    }
+
 }

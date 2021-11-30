@@ -17,7 +17,7 @@ extension SettingVC {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: SettingTableViewCell.identifier, for: indexPath) as? SettingTableViewCell else {
             return UITableViewCell()
         }
-        
+        cell.selectionStyle = .none
         cell.settingLabel.text = settingList[indexPath.section][indexPath.row]
         //        cell.settingLabel.backgroundColor = .gray
         return cell

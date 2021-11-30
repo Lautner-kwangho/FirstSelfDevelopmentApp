@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E426852427562C1A0098B28C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E426852327562C1A0098B28C /* Kingfisher */; };
+		E426852727562D460098B28C /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = E426852627562D460098B28C /* Charts */; };
 		E429F1902748DDDD00FA7212 /* MainInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E429F18F2748DDDD00FA7212 /* MainInfo.storyboard */; };
 		E429F1922748DF9C00FA7212 /* MainInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E429F1912748DF9C00FA7212 /* MainInfoVC.swift */; };
 		E429F197274B5DF700FA7212 /* SettingInfoPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E429F196274B5DF700FA7212 /* SettingInfoPage.storyboard */; };
 		E429F199274B5E1E00FA7212 /* SettingInfoPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E429F198274B5E1E00FA7212 /* SettingInfoPageVC.swift */; };
-		E446360E274D2A4400FFDE12 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = E446360D274D2A4400FFDE12 /* Charts */; };
 		E4463610274E102800FFDE12 /* ShowVC+UIMemu+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E446360F274E102800FFDE12 /* ShowVC+UIMemu+Extension.swift */; };
 		E4463612274E209C00FFDE12 /* SettingInfoCopyright.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4463611274E209C00FFDE12 /* SettingInfoCopyright.storyboard */; };
 		E44E2101274E21BD00890E14 /* SettingInfoCopyrightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44E2100274E21BD00890E14 /* SettingInfoCopyrightVC.swift */; };
 		E44E2103274E5F6E00890E14 /* MainXMLIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44E2102274E5F6E00890E14 /* MainXMLIndex.swift */; };
-		E44E2106274E777D00890E14 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E44E2105274E777D00890E14 /* Kingfisher */; };
 		E44E2108274E77BB00890E14 /* Kingfisher+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44E2107274E77BB00890E14 /* Kingfisher+Extension.swift */; };
 		E454BD3A274FC095003083AC /* MainInfoVC+API+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E454BD39274FC095003083AC /* MainInfoVC+API+Extension.swift */; };
 		E454BD3C274FC106003083AC /* MainInfoXMLIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E454BD3B274FC106003083AC /* MainInfoXMLIndex.swift */; };
@@ -194,17 +194,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E446360E274D2A4400FFDE12 /* Charts in Frameworks */,
 				E4FDBBC9275123D600203DA4 /* SkeletonView in Frameworks */,
 				E4B525392746B2230074531B /* SWXMLHash in Frameworks */,
 				E4795FBD27523D49006599A9 /* RealmSwift in Frameworks */,
 				E4CA0F07274BCD73005EB578 /* JTAppleCalendar in Frameworks */,
 				E4B52531274681000074531B /* Alamofire in Frameworks */,
+				E426852727562D460098B28C /* Charts in Frameworks */,
 				E4FDBBC627511B9000203DA4 /* JGProgressHUD in Frameworks */,
 				E4795FBB27523D49006599A9 /* Realm in Frameworks */,
+				E426852427562C1A0098B28C /* Kingfisher in Frameworks */,
 				E4795FC227528689006599A9 /* Toast in Frameworks */,
 				E4F1A86C27550C780041EBDF /* IQKeyboardManagerSwift in Frameworks */,
-				E44E2106274E777D00890E14 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,14 +409,14 @@
 				E4B52530274681000074531B /* Alamofire */,
 				E4B525382746B2230074531B /* SWXMLHash */,
 				E4CA0F06274BCD73005EB578 /* JTAppleCalendar */,
-				E446360D274D2A4400FFDE12 /* Charts */,
-				E44E2105274E777D00890E14 /* Kingfisher */,
 				E4FDBBC527511B9000203DA4 /* JGProgressHUD */,
 				E4FDBBC8275123D600203DA4 /* SkeletonView */,
 				E4795FBA27523D49006599A9 /* Realm */,
 				E4795FBC27523D49006599A9 /* RealmSwift */,
 				E4795FC127528689006599A9 /* Toast */,
 				E4F1A86B27550C780041EBDF /* IQKeyboardManagerSwift */,
+				E426852327562C1A0098B28C /* Kingfisher */,
+				E426852627562D460098B28C /* Charts */,
 			);
 			productName = ArtMajor;
 			productReference = E4D7AA4527462D9D00983195 /* ArtMajor.app */;
@@ -450,13 +450,13 @@
 				E4B5252F274681000074531B /* XCRemoteSwiftPackageReference "Alamofire" */,
 				E4B525372746B2230074531B /* XCRemoteSwiftPackageReference "SWXMLHash" */,
 				E4CA0F05274BCD73005EB578 /* XCRemoteSwiftPackageReference "JTAppleCalendar" */,
-				E446360C274D2A4400FFDE12 /* XCRemoteSwiftPackageReference "Charts" */,
-				E44E2104274E777D00890E14 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				E4FDBBC427511B9000203DA4 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
 				E4FDBBC7275123D600203DA4 /* XCRemoteSwiftPackageReference "SkeletonView" */,
 				E4795FB927523D49006599A9 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
 				E4795FC027528689006599A9 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
 				E4F1A86A27550C780041EBDF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				E426852227562C1A0098B28C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				E426852527562D460098B28C /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = E4D7AA4627462D9D00983195 /* Products */;
 			projectDirPath = "";
@@ -729,7 +729,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "kwanghochoi2-com.naver.blog.ArtMajor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -762,7 +762,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "kwanghochoi2-com.naver.blog.ArtMajor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -795,20 +795,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E446360C274D2A4400FFDE12 /* XCRemoteSwiftPackageReference "Charts" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/danielgindi/Charts.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-		E44E2104274E777D00890E14 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+		E426852227562C1A0098B28C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 7.0.0;
+			};
+		};
+		E426852527562D460098B28C /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
 			};
 		};
 		E4795FB927523D49006599A9 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
@@ -878,15 +878,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E446360D274D2A4400FFDE12 /* Charts */ = {
+		E426852327562C1A0098B28C /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E446360C274D2A4400FFDE12 /* XCRemoteSwiftPackageReference "Charts" */;
-			productName = Charts;
-		};
-		E44E2105274E777D00890E14 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E44E2104274E777D00890E14 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			package = E426852227562C1A0098B28C /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		E426852627562D460098B28C /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E426852527562D460098B28C /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
 		};
 		E4795FBA27523D49006599A9 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;

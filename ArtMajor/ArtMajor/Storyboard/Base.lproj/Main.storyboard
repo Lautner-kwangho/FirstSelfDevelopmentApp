@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -57,16 +58,30 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4QB-dJ-Eye">
+                                        <rect key="frame" x="381.5" y="13.5" width="22.5" height="22"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal">
+                                            <imageReference key="image" image="chevron.down" catalog="system" symbolScale="large"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="mainLocalSelectButtonHide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WtK-h5-OSr"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="4QB-dJ-Eye" secondAttribute="trailing" constant="10" id="3AB-2T-HAP"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hdL-Yc-49P" secondAttribute="trailing" constant="10" id="O4i-aN-Qor"/>
                                     <constraint firstAttribute="bottom" secondItem="hdL-Yc-49P" secondAttribute="bottom" constant="10" id="eZO-ev-DH1"/>
                                     <constraint firstItem="hdL-Yc-49P" firstAttribute="width" relation="greaterThanOrEqual" secondItem="xkV-EP-t6F" secondAttribute="width" multiplier="0.25" id="jVy-Sc-IX3"/>
                                     <constraint firstItem="hdL-Yc-49P" firstAttribute="centerY" secondItem="xkV-EP-t6F" secondAttribute="centerY" id="jhe-3f-NNM"/>
                                     <constraint firstAttribute="height" constant="49" id="jvK-yU-I7E"/>
                                     <constraint firstItem="hdL-Yc-49P" firstAttribute="leading" secondItem="xkV-EP-t6F" secondAttribute="leading" constant="10" id="k8a-84-TMy"/>
+                                    <constraint firstItem="4QB-dJ-Eye" firstAttribute="centerY" secondItem="xkV-EP-t6F" secondAttribute="centerY" id="mT1-gz-EGv"/>
                                     <constraint firstItem="hdL-Yc-49P" firstAttribute="top" secondItem="xkV-EP-t6F" secondAttribute="top" constant="10" id="op4-ee-fbT"/>
+                                    <constraint firstItem="4QB-dJ-Eye" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="hdL-Yc-49P" secondAttribute="trailing" constant="10" id="xc7-Kl-BXX"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -91,6 +106,7 @@
                         <outlet property="backgroundView" destination="HBG-l9-BhM" id="IvV-W1-svi"/>
                         <outlet property="mainCollectionView" destination="FVf-Eg-cwk" id="Vha-Mm-vFM"/>
                         <outlet property="mainCollectionViewBackground" destination="85g-JZ-M1S" id="vkm-7p-5m3"/>
+                        <outlet property="mainLocalSelectButtonHide" destination="4QB-dJ-Eye" id="kjz-Yp-rLc"/>
                         <outlet property="mainLocalSelectedButton" destination="hdL-Yc-49P" id="qJS-yS-Qlr"/>
                         <outlet property="mainView" destination="xkV-EP-t6F" id="G0j-bm-Ahu"/>
                     </connections>
@@ -184,6 +200,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="chevron.down" catalog="system" width="128" height="72"/>
         <image name="공연icon" width="25" height="25"/>
         <image name="달력icon" width="25" height="25"/>
         <image name="설정icon" width="25" height="25"/>

@@ -26,6 +26,7 @@ extension MainVC {
                 if place == "" {
                     let mainXMLData: [MainXML] = try xml["response"]["msgBody"]["perforList"].value()
                     self.mainXML = mainXMLData
+                    self.mainCollectionView.backgroundView?.isHidden = true
                 } else {
                     let mainXMLData: [MainXML] = try xml["response"]["msgBody"]["perforList"].value()
                     self.mainXMLFilter = mainXMLData
@@ -38,7 +39,14 @@ extension MainVC {
                 self.mainCollectionView.backgroundView?.isHidden = false
                 self.alert(title: "다른 지역을 선택해주세요", message: "현재 진행중인 전시회가 없습니다.", actionTitle: "확인")
             }
-            self.mainCollectionView.reloadData()
+            DispatchQueue.main.async {
+                self.mainCollectionView.reloadData()
+                
+                if self.mainXMLFilter.count > 0 {
+                    self.mainCollectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: .centeredHorizontally, animated: false)
+                }
+                
+            }
             
         }
         

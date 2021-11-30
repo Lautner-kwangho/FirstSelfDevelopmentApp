@@ -9,6 +9,7 @@ import UIKit
 
 extension MainVC {
     func mainButtonSetting() {
+        mainLocalSelectedButton.isHidden = true
         let button = [mainLocalSelectedButton]
         for btn in button {
             btn?.layer.cornerRadius = (btn?.frame.size.width)! * 0.05
@@ -28,14 +29,15 @@ extension MainVC {
             let local = UIAction(title: list, image: nil) { _ in
                 self.mainLocalSelectedButton.setTitle(list, for: .normal)
                 self.mainLocalSelectedButton.setImage(nil, for: .normal)
+                
+                self.mainLocalSelectButtonHide.setImage(UIImage(systemName: "chevron.down"), for: .normal)
+                self.mainLocalSelectedButton.isHidden = true
+                self.localSelectedButton = !self.localSelectedButton
+                
                 if list == "전체" {
                     self.apiTest(place: "")
                 } else {
                     self.apiTest(place: list)
-                }
-                
-                if self.mainXMLFilter.count > 0 {
-                    self.mainCollectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: .centeredHorizontally, animated: true)
                 }
             }
             localItems.append(local)

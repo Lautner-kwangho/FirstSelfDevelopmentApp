@@ -61,7 +61,7 @@ class CalendarVC: UIViewController {
         calendarCollectionView.reloadData()
 
         if favoriteTasks.isEmpty {
-            setNoDataPlaceholder("정보가 없어요\n홈 화면에서 즐겨찾기를 선택해주세요", tableView: calendarTableView)
+            setNoDataPlaceholder("정보가 없어요\n전시 화면에서 즐겨찾기를 선택해주세요", tableView: calendarTableView)
         } else {
             self.calendarTableView.backgroundView?.isHidden = true
         }

@@ -21,30 +21,30 @@ extension MyProfileAddVC: UIImagePickerControllerDelegate, UINavigationControlle
     }
     
     @objc func openLibrary() {
-        let photoAuthorizationStatus = PHPhotoLibrary.authorizationStatus()
-        switch photoAuthorizationStatus {
-        case .notDetermined:
-            if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
+//        let photoAuthorizationStatus = PHPhotoLibrary.authorizationStatus()
+//        switch photoAuthorizationStatus {
+//        case .notDetermined:
+//            if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
                 imagePicker.sourceType = .photoLibrary
                 imagePicker.allowsEditing = true
                 present(imagePicker, animated: false, completion: nil)
-            }
-            // 아직 거부중
-        case .restricted:
-            self.alert(title: "제한 접근", message: "사용자님의 사진 접근 권한이 거부되어 있습니다", actionTitle: "확인")
-        case .denied:
-            self.alert(title: "거부", message: "사진 접근 권한이 거부되었습니다. 권한을 허용해주세요", actionTitle: "확인")
-        case .authorized:
-            if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
-                imagePicker.sourceType = .photoLibrary
-                imagePicker.allowsEditing = true
-                present(imagePicker, animated: false, completion: nil)
-            }
-        case .limited:
-            self.alert(title: "제한", message: "제한된 접근법입니다", actionTitle: "확인")
-        @unknown default:
-            print("DEFAULT ERROR")
-        }
+//            }
+//            // 아직 거부중
+//        case .restricted:
+//            self.alert(title: "제한 접근", message: "사용자님의 사진 접근 권한이 거부되어 있습니다", actionTitle: "확인")
+//        case .denied:
+//            self.alert(title: "거부", message: "사진 접근 권한이 거부되었습니다. 권한을 허용해주세요", actionTitle: "확인")
+//        case .authorized:
+//            if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
+//                imagePicker.sourceType = .photoLibrary
+//                imagePicker.allowsEditing = true
+//                present(imagePicker, animated: false, completion: nil)
+//            }
+//        case .limited:
+//            self.alert(title: "제한", message: "제한된 접근법입니다", actionTitle: "확인")
+//        @unknown default:
+//            print("DEFAULT ERROR")
+//        }
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {

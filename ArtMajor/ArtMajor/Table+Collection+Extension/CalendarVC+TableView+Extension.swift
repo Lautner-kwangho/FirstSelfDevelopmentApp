@@ -39,6 +39,11 @@ extension CalendarVC {
         self.event.remove(row.dateFrom.replacingOccurrences(of: ".", with: ""))
         try! localRealm.write {
             localRealm.delete(row)
+            if favoriteTasks.isEmpty {
+                setNoDataPlaceholder("정보가 없어요\n전시 화면에서 즐겨찾기를 선택해주세요", tableView: calendarTableView)
+            } else {
+                self.calendarTableView.backgroundView?.isHidden = true
+            }
             tableView.reloadData()
         }
         self.calendarCollectionView.reloadData()
