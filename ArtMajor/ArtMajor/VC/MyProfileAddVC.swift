@@ -175,14 +175,18 @@ class MyProfileAddVC: UIViewController {
     }
     
     @objc func saveButton() {
-        try! localRealm.write {
-            let myPage = MyPageRealm(title: addTitle.text, genre: addGenre.text!.replacingOccurrences(of: "분야 : ", with: ""), date: addDate.text!, content: addContent.text == "내용을 입력해주세요" ? "" : addContent.text)
-            localRealm.add(myPage)
-            saveImageToDocumentDirectory(imageName: "\(myPage._id).jpg", image: addImage.image!)
+        if addImage.image == UIImage(named: "클릭시 앨범") {
+            self.alert(title: "이미지 저장", message: "이미지가 없습니다", actionTitle: "확인")
+        } else {
+            try! localRealm.write {
+                let myPage = MyPageRealm(title: addTitle.text, genre: addGenre.text!.replacingOccurrences(of: "분야 : ", with: ""), date: addDate.text!, content: addContent.text == "내용을 입력해주세요" ? "" : addContent.text)
+                localRealm.add(myPage)
+                saveImageToDocumentDirectory(imageName: "\(myPage._id).jpg", image: addImage.image!)
+            }
+            
+            self.navigationController?.popViewController(animated: true)
+            self.tabBarController?.tabBar.isHidden = false
         }
-        
-        self.navigationController?.popViewController(animated: true)
-        self.tabBarController?.tabBar.isHidden = false
     }
     
     

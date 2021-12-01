@@ -48,12 +48,8 @@ class MainVC: UIViewController {
         mainButtonSetting()
         mainSelectLocalButtonSetting()
         mainCollectionViewSetting()
-        setNoDataPlaceholder("왼쪽 상단 버튼 클릭 후 지역을 선택해주시면\n현재진행되고 있는 전시회 정보가 나옵니다", collectionView: mainCollectionView)
-        
-        // 출시 전에 삭제할 것!
-        try! localRealm.write {
-            localRealm.deleteAll()
-        }
+        setNoDataPlaceholder("오른쪽 상단 버튼 클릭 후 지역을 선택해주시면\n현재진행되고 있는 전시회 정보가 나옵니다", collectionView: mainCollectionView)
+
     }
     
     func gradientBackground() {
