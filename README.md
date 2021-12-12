@@ -89,7 +89,7 @@
 |25|12월 09일|- 업데이트 심사 1차 제출 <br/> - 캘린더 추가 구성(UI변경) <br/> - 저장 버튼 추가 |7시간|[25일차](DailyReadMe/25일차.md)
 |26|12월 10일|- 캘린더 추가 구성 <br/> - 설정업데이트 <br/> - ScrollView 화면구성 생각 |8시간|[26일차](DailyReadMe/26일차.md)
 |27|12월 11일|- ScrollView 화면 Test 및 적용|6시간|[27일차](DailyReadMe/27일차.md)
-|28|12월 12일|-|-|[28일차](DailyReadMe/28일차.md)
+|28|12월 12일|- ScrollView 화면 추가 구성 및 저장 화면 수정|6시간|[28일차](DailyReadMe/28일차.md)
 ###### * All day = 9:30 ~ 03:00
 
 <br/><br/>
