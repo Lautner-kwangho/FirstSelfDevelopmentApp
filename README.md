@@ -92,6 +92,7 @@
 |28|12월 12일|- ScrollView 화면 추가 구성 및 저장 화면 수정|6시간|[28일차](DailyReadMe/28일차.md)
 |  * 앱 업데이트 *  ||
 |29|12월 13일|- Firebase 를 이용하여 crashlytics와 analytics 추가|10시간|[29번째](DailyReadMe/29번째.md)
+|30|12월 15일|- 버전 1.1.0 심사 제출|-|[30번째](DailyReadMe/30번째.md)
 ###### * All day = 9:30 ~ 03:00
 
 <br/><br/>
