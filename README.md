@@ -93,6 +93,7 @@
 |  * 앱 업데이트 *  ||
 |29|12월 13일|- Firebase 를 이용하여 crashlytics와 analytics 추가|10시간|[29번째](DailyReadMe/29번째.md)
 |30|12월 15일|- 버전 1.1.0 심사 제출|-|[30번째](DailyReadMe/30번째.md)
+|31|12월 19일|- 버전 1.1.0 심사 리젝 -> 수정 |-|[31번째](DailyReadMe/31번째.md)
 ###### * All day = 9:30 ~ 03:00
 
 <br/><br/>
