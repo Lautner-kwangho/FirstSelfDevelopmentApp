@@ -1,6 +1,6 @@
 # Art 전공 : ~~할인과~~ 전시 공연 정보를 얻어보세요!
 ### - 앱 이름 소개 : Art는 미술 분야를 뜻하고, 전공은 전시회 + 공연의 앞글자를 따와서 Art 전공 앱을 만들게 되었습니다
-### 부를 땐, 아트 앱, 전공 앱 등등 이렇게 부를 예정입니다!
+### 부를 땐, 아트 앱, 전공 앱 등등 이렇게 부릅니다!
 <br/>
 
 # 목차<br/>
@@ -9,7 +9,8 @@
 ### 3. [앱 기획서](#앱-기획서)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;+ 앱 소개 / 특징<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;+ 앱 UI / UX 특징<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;+ 앱 기능<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ 앱 기능 및 업데이트<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ 사용 기술 및 라이브러리<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;+ 기간별 개발 공수<br/>
 ### 4. [앱 출시](#앱-출시)<br/>
 
@@ -96,22 +97,22 @@
 ### -  앱 소개 / 특징
 #### 번거롭게 검색했던 전시회, 공연을 한 눈에 살펴보세요
 #### 인상깊었던 공연을 저장하고 나만의 갤러리를 만들어보세요
-<br/><br/>
-### -  앱 UI / 기타 특징
-#### Simple & Convenience
-#### White & Gradation
-#### Only Portrait
-#### iOS 13 +
-<img src="https://user-images.githubusercontent.com/80211277/142138227-b673e1e0-2763-4580-86d8-bee5d7c590c7.png">
-<img src="https://user-images.githubusercontent.com/80211277/142138219-198ad8bd-9d3f-4442-b50c-38774beebd1f.png">
 
 <br/><br/>
-### -  앱 기능
-#### 최근 전시 공연 정보를 얻을 수 있습니다
+### -  사용 기술 및 라이브러리
+#### Swift, iOS, Alamofire, Realm, JTAppleCalendar, Kingfisher, SWXMLHash, Toast, ZIP등
+#### Open API : KOPIS, 공공문화정보
+
+<br/><br/>
+### - 앱 기능 및 업데이트
+#### 전시회 일정 조회 및 저장 : 지역별 최근 전시회 일정, 정보 및 지도 약도를 조회하 수 있습니다
 #### 어디서 진행되는지 약도를 통해서 알 수 있습니다
-#### 기대되는 공연 및 전시 일정을 체크할 수 있습니다<br/>
+#### 기대되는 공연 및 전시 일정을 체크할 수 있습니다
+#### 인상 깊은 공연 사진 저장 : 선호하는 장르를 분석하여 사용자가 저장할 수 있습니다
+#### 사용자 기능 : 데이터 백업 및 복구, 최신 앱 유무 체크<br/>
 #### ~~틈틈이 할인 정보를 얻어볼 수 있습니다~~
 #### ~~지난 공연, 전시 등 검색할 수 있습니다~~
+
 <br/><br/>
 ### - 기간별 개발 공수
 |순번|기간|내용|
@@ -127,7 +128,23 @@
 
 <br/><br/>
 ## 앱 출시
-### - 최소 출시 : 11월 말 ~ 12월 초 출시 예정
-### - 업데이트 및 리팩토링 : 12월 초 예정
+### - 제작 기간 : 11월 말 ~ 12월 초 출시
+### - 업데이트 및 리팩토링 진행 중
+#### version 1.1.4: 각 텍스트 수정 및 코드 개선
+#### version 1.1.3: 공연조회 스위치 기능 추가
+#### version 1.1.2: 사용성 개선 및 리펙토링 화면 구성
+#### version 1.1.1: 사용자 피드백을 받아 기능 추가
+#### version 1.1.0: 기존 출시에서 UI 및 기능 추가, 버그 수정
+#### version 1.0.2: 백업 복구, UI 수정 및 설정 기능 추가
+#### app 첫 출시
+
+<br/><br/>
+### -  앱 UI / 기타 특징
+#### Simple & Convenience
+#### White & Gradation
+#### Only Portrait
+#### iOS 13 +
+<img src="https://user-images.githubusercontent.com/80211277/142138227-b673e1e0-2763-4580-86d8-bee5d7c590c7.png">
+<img src="https://user-images.githubusercontent.com/80211277/142138219-198ad8bd-9d3f-4442-b50c-38774beebd1f.png">
 
 
