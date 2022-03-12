@@ -4,15 +4,27 @@
 <br/>
 
 # 목차<br/>
-### 1. [(개인) 일일기록](#개인-일일기록)<br/>
-### 2. [(팀빌딩) 학습기록](#팀빌딩-학습기록)<br/>
-### 3. [앱 기획서](#앱-기획서)<br/>
+### 1. [앱 기획서](#앱-기획서)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;+ 앱 소개 / 특징<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;+ 앱 UI / UX 특징<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;+ 앱 기능 및 업데이트<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;+ 사용 기술 및 라이브러리<br/>
+### 2. [(개인) 일일기록](#개인-일일기록)<br/>
+### 3. [(팀빌딩) 학습기록](#팀빌딩-학습기록)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ 앱 기능 및 업데이트<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;+ 기간별 개발 공수<br/>
 ### 4. [앱 출시](#앱-출시)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ 앱 UI / UX 특징<br/>
+### 5. [전체 Iteration](#전체-일일-Iteration)<br/>
+
+<br/><br/>
+## 앱 기획서
+### -  앱 소개 / 특징
+#### 번거롭게 검색했던 전시회, 공연을 한 눈에 살펴보세요
+#### 인상깊었던 공연을 저장하고 나만의 갤러리를 만들어보세요
+
+<br/><br/>
+### -  사용 기술 및 라이브러리
+#### Swift, iOS, Alamofire, Realm, JTAppleCalendar, Kingfisher, SWXMLHash, Toast, ZIP등
+#### Open API : KOPIS, 공공문화정보
 
 <br/><br/>
 ## (개인) 일일기록
@@ -54,14 +66,16 @@
 |27|12월 11일|- ScrollView 화면 Test 및 적용|6시간|[27일차](DailyReadMe/27일차.md)
 |28|12월 12일|- ScrollView 화면 추가 구성 및 저장 화면 수정|6시간|[28일차](DailyReadMe/28일차.md)
 |  * 앱 업데이트 *  ||
-|29|12월 13일|- Firebase 를 이용하여 crashlytics와 analytics 추가|10시간|[29번째](DailyReadMe/29번째.md)
-|30|12월 15일|- 버전 1.1.0 심사 제출|-|[30번째](DailyReadMe/30번째.md)
-|31|12월 19일|- 버전 1.1.0 심사 리젝 -> 수정 |-|[31번째](DailyReadMe/31번째.md)
+|29|12월 13일|- Firebase 를 이용하여 crashlytics와 analytics 추가|10시간|[29일차](DailyReadMe/29번째.md)
+|30|12월 15일|- 버전 1.1.0 심사 제출|-|[30일차](DailyReadMe/30번째.md)
+|31|12월 19일|- 버전 1.1.0 심사 리젝 -> 수정 |-|[31일차](DailyReadMe/31번째.md)
 |-|12월 22일|- 버전 1.1.0 심사 통과 야호 😊 |-|-
-|32|12월 27일|- 버전 1.1.1 심사 제출|-|[32번째](DailyReadMe/32번째.md)
+|32|12월 27일|- 버전 1.1.1 심사 제출|-|[32일차](DailyReadMe/32번째.md)
 |-|12월 28일|- 버전 1.1.1 심사 통과 |-|-
-|-|1월 11일|- 버전 1.1.2 심사 제출 |-|[33번째](DailyReadMe/33번째.md)
-|-|2월 6일|- 버전 1.1.3 심사 제출 |-|[34번째](DailyReadMe/34번째.md)
+|-|1월 11일|- 버전 1.1.2 심사 제출 |-|[33일차](DailyReadMe/33번째.md)
+|-|2월 6일|- 버전 1.1.3 심사 제출 |-|[34일차](DailyReadMe/34번째.md)
+|-|2월 19일|- 버전 1.1.4 심사 통과 |-|-
+|-|3월 7일|- 버전 1.1.5 심사 통과 |-|-
 ###### * All day = 9:30 ~ 03:00
 
 <br/><br/>
@@ -93,17 +107,6 @@
 |20|12월 10일|- 현재 진행 상황 공유 및 마지막 팀빌딩? 모두들 그간 고생했습니다!|
 
 <br/><br/>
-## 앱 기획서
-### -  앱 소개 / 특징
-#### 번거롭게 검색했던 전시회, 공연을 한 눈에 살펴보세요
-#### 인상깊었던 공연을 저장하고 나만의 갤러리를 만들어보세요
-
-<br/><br/>
-### -  사용 기술 및 라이브러리
-#### Swift, iOS, Alamofire, Realm, JTAppleCalendar, Kingfisher, SWXMLHash, Toast, ZIP등
-#### Open API : KOPIS, 공공문화정보
-
-<br/><br/>
 ### - 앱 기능 및 업데이트
 #### 전시회 일정 조회 및 저장 : 지역별 최근 전시회 일정, 정보 및 지도 약도를 조회하 수 있습니다
 #### 어디서 진행되는지 약도를 통해서 알 수 있습니다
@@ -130,6 +133,7 @@
 ## 앱 출시
 ### - 제작 기간 : 11월 말 ~ 12월 초 출시
 ### - 업데이트 및 리팩토링 진행 중
+#### version 1.1.5: 코드 개선 및 오류 점검
 #### version 1.1.4: 각 텍스트 수정 및 코드 개선
 #### version 1.1.3: 공연조회 스위치 기능 추가
 #### version 1.1.2: 사용성 개선 및 리펙토링 화면 구성
@@ -148,3 +152,7 @@
 <img src="https://user-images.githubusercontent.com/80211277/142138219-198ad8bd-9d3f-4442-b50c-38774beebd1f.png">
 
 <br/><img src="https://user-images.githubusercontent.com/80211277/156888095-7a7d063e-9200-4da4-b969-e339d87b2d7a.gif" width="240">  <img src="https://user-images.githubusercontent.com/80211277/156888104-5ecccf0c-a38e-458a-bc75-fa67c38ba61f.gif" width="240">
+
+<br/><br/>
+## 전체 Iteration
+### 1일차
