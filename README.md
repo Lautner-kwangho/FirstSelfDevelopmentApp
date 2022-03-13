@@ -14,7 +14,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;+ 기간별 개발 공수<br/>
 ### 5. [앱 출시](#앱-출시)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;+ 앱 UI / UX 특징<br/>
-### 6. [전체 Iteration](#전체-일일-Iteration)<br/>
+### 6. [전체 Iteration](#전체-Iteration)<br/>
 
 <br/><br/>
 ## 앱 기획서
